@@ -1,4 +1,4 @@
-baseURL = "https://loving-wescoff-783f2a.netlify.app"
+baseURL = "https://loving-wescoff-783f2a.netlify.app/"
 languageCode = "en-us"
 title = "{open}skies.sh"
 theme = "hugo-ink"
