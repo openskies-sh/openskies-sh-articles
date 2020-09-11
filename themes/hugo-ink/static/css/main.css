@@ -334,7 +334,9 @@ ul {
     fill: grey;
     color: black;
 }
-
+.section {
+    padding-bottom: 15px;
+}
 .section .section-header {
     font-size: 0.75rem;
     font-weight: 600;
@@ -346,6 +348,7 @@ ul {
 
 .recent-posts .posts .post {
     margin-bottom: 45px;
+    
 }
 
 .post-header {
@@ -426,7 +429,7 @@ ul {
     font-size: 0.8em;
     border-top: 1px solid #eeeeee;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px;
     padding-bottom: 50px;
     font-family: 'PT Mono', monospace;
 }
