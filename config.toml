@@ -64,7 +64,7 @@ url = "/categories"
 weight = 2
 
 [[menu.main]]
-name = "About"
+name = "About Openskies.sh"
 url = "https://about.openskies.sh"
 weight = 3
 
