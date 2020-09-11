@@ -52,4 +52,4 @@ There is a detailed [installation guide](https://github.com/openskies-sh/flight-
 
 ### Final thoughts
 
-We now have a working display of flights that can be streamed by using a few docker commands. The next question is how is data going to be aggregated and fed in to the system? We will touch upon this in another article, we use [Flight Blender](https://www.github.com/openskies-sh/flight-blender). This way you can securely connect to the airspace by self hosting a Flight Spotlight instance and display flight data.
+We now have a working display of flights that can be streamed by using a few docker commands. The next question is how is data going to be aggregated and fed in to the system? We will touch upon this in [another article]({{< ref "live-airtraffic-aggregation.md" >}}), we use [Flight Blender](https://www.github.com/openskies-sh/flight-blender). This way you can securely connect to the airspace by self hosting a Flight Spotlight instance and display flight data.
