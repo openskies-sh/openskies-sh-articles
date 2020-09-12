@@ -3,7 +3,7 @@ title: "Building a digital Drone + Aircraft registration sandbox / Bringing your
 date: 2020-09-10T13:17:48+01:00
 draft: false
 categories: [registry, identity, authentication, application]
-tags: ["drone registration", "registry API"]
+tags: ["drone registration", "registry API", "registry sandbox"]
 ---
 
 Over the past few years, we have done a large amount of work the topic of registering drones. Registration of drones is a fundamental pillar of UTM / U-Space. In this article, you will be introduced to a registry sandbox that you can deploy for your projects. 

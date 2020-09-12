@@ -1,9 +1,9 @@
 ---
-title: "What is a Registry Broker? First steps to enable inter-connected Drone + Aircraft registries (Sandbox)"
+title: "What is a Registry Broker? First steps to enable inter-connected Drone + Aircraft registries"
 date: 2020-09-10T13:17:56+01:00
 draft: false
 categories: [registry, identity, authentication, application]
-tags: ["drone registration", "registry broker", "registry api"]
+tags: ["drone registration", "registry broker", "registry api", "registry sandbox"]
 ---
 
 A registry broker is a piece of software that connects and exchanged data between different registries. Building upon the registration sandbox we take the next steps into connecting multiple registries. 
