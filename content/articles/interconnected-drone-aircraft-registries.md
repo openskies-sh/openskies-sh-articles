@@ -6,7 +6,6 @@ categories: [registry, identity, authentication, application]
 tags: ["drone registration", "registry broker", "registry api"]
 ---
 
-
 A registry broker is a piece of software that connects and exchanged data between different registries. Building upon the registration sandbox we take the next steps into connecting multiple registries. 
 <!--more-->
 

@@ -12,7 +12,7 @@ pygmentscodefencesguesssyntax = true
 
 
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
+#paginate = 10
 
 # Number of characters to show in summary.
 summaryLength = 20
