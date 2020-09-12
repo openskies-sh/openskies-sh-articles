@@ -2,7 +2,7 @@
 title: "Simple, high performance air-traffic data aggregation and normalization"
 date: 2020-09-10T13:16:50+01:00
 draft: false
-categories: ["air traffic", "remote id","applications"]
+categories: ["air traffic", "remote id",]
 tags: ["remote id display application","flight tracking","aircraft surveillance"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Beginners guide to building a live drone / aircraft traffic dashboard"
 date: 2020-09-10T13:16:35+01:00
 draft: false
-categories: ["air traffic", "remote id","applications"]
+categories: ["air traffic", "remote id",]
 tags: ["remote id display application","flight tracking","aircraft surveillance"]
 ---
 
