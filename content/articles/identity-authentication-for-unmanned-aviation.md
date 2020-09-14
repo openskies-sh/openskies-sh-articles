@@ -11,7 +11,8 @@ Drones and unmanned vehicles present new challenges to identity, authentication 
 Identity and Authentication is a critical component of the drone / unmanned aviation ecosystem. You need to understand the basics of enabling this, once you do you will be able to automate to a large extent the orchestration of identity among the different stakeholders in the ecosystem: law enforcement, USS Service providers, remote id display providers etc.
 
 <!--more-->
-In this article you will learn:
+
+In this article you will learn about:
     - The current consensus in one or two standard bodies on the method of Identity and Authentication
     - The problems with "commercial" and "opensource" systems since they are not purpose built for UTM / U-Space
     - About Flight Passport, a open source Identity and Authentication provider specifically built for UTM / U-Space
@@ -42,7 +43,7 @@ In the ASTM context, with you use a software like [InterUSS](https://www.interus
 }
 ```
 
-By using a Token with the information above, you can access resources in the eco-system. The question is how do you issue tokens? How do you identify who gets to make the requests for tokens. 
+By using a Token with the information above, you can access resources in the eco-system. The question is how do you issue tokens? How do you identify who gets to make the requests for tokens.
 
 ### Problems with existing providers
 
@@ -61,4 +62,4 @@ The are a number of issues with these solutions:
 
 ### Final thoughts / id.openskies.sh
 
-To overcome all of this, we have developed a open source, easy to use / install OAUTH server. It is designed the address the issues above and specifically developed / customized for UTM / U-Space, it is built on existing Open source projects and maintained and developed by us. You can see a production instance on [https://id.openskies.sh](https://id.openskies.sh). This can be deployed on your infrastructure and is called [Flight Passport](https://www.github.com/openskies-sh/flight_passport), using Flight Passport you can issue tokens, credentials, link to existing identity providers and also your organization's and issue tokens securely and flexibly without limitations mentioned above. We can of course help in installing and securing your own instance as necessary. 
+To overcome all of this, we have developed a open source, easy to use / install OAUTH server. It is designed the address the issues above and specifically developed / customized for UTM / U-Space, it is built on existing Open source projects and maintained and developed by us. You can see a production instance on [https://id.openskies.sh](https://id.openskies.sh). This can be deployed on your infrastructure and is called [Flight Passport](https://www.github.com/openskies-sh/flight_passport), using Flight Passport you can issue tokens, credentials, link to existing identity providers and also your organization's and issue tokens securely and flexibly without limitations mentioned above. We can of course help in installing and securing your own instance as necessary.
