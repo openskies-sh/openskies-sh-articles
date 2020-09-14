@@ -14,10 +14,10 @@ Identity and Authentication is a critical component of the drone / unmanned avia
 
 In this article you will learn about:
 
-    - The current consensus in one or two standard bodies on the method of Identity and Authentication
-    - The problems with "commercial" and "opensource" systems since they are not purpose built for UTM / U-Space
-    - About Flight Passport, a open source Identity and Authentication provider specifically built for UTM / U-Space
-    - Some concerns on using OAUTH and JWT tokens in drones / unmanned aviation
+  - The current consensus in one or two standard bodies on the method of Identity and Authentication
+  - The problems with "commercial" and "opensource" systems since they are not purpose built for UTM / U-Space
+  - About Flight Passport, a open source Identity and Authentication provider specifically built for UTM / U-Space
+  - Some concerns on using OAUTH and JWT tokens in drones / unmanned aviation
 
 ### Internet standards for unmanned aviation: OAUTH
 
