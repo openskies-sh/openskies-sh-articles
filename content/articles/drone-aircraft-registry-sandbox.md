@@ -11,10 +11,10 @@ Over the past few years, we have done a large amount of work the topic of regist
 <!--more-->
 If you are new to registration, you are at the right place, here is everything that you will be introduced to in this article:
 
-- What elements need to be registered?
-- Backend and Front end of the registry system
-- Registry API
-- Securing the registration system
+    - What elements need to be registered?
+    - Backend and Front end of the registry system
+    - Registry API
+    - Securing the registration system
 
 The system introduced here comes with a frontend, a backend a API that can be individually deployed depending on your needs and enables you to securely store and query information about aircraft, operators and people.
 
