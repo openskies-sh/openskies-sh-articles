@@ -6,13 +6,13 @@ categories: [registry, identity, authentication]
 tags: ["drone registration", "registry API", "registry sandbox"]
 ---
 
-Over the past few years, we have done a large amount of work the topic of registering drones. Registration of drones is a fundamental pillar of UTM / U-Space. In this article, you will be introduced to a registry sandbox that you can deploy for your projects. 
+Over the past few years, we have done a large amount of work the topic of registration of drones. Registration of drones is a fundamental pillar of UTM / U-Space. In this article, you will be introduced to a registry sandbox that you can deploy for your projects. Registration of drones is a vast topic and in this article you will be introduced to a digital sandbox and practical tools to enable the registration function for your software stack.
 
 <!--more-->
-If you are new to registration, you are at the right place, here is everything that you will be introduced to in this article: 
+If you are new to registration, you are at the right place, here is everything that you will be introduced to in this article:
 
-- What needs to be registered?
-- Backend and Front end of the registry
+- What elements need to be registered?
+- Backend and Front end of the registry system
 - Registry API
 - Securing the registration system
 
@@ -32,7 +32,7 @@ In most cases, managing registration is the domain of the national civil aviatio
 
 - _People_: Finally any registration system should be able to register data about people and identity. In many jurisdictions it is covered under GDPR and requires additional precautions. What is important to understand is that all registries necessarily will have personal information in them, including things like ID number, training history etc.
 
-Registration data is not "static" it is a living database that needs to be updated and maintained, to develop a conceptual understanding of this, review the landscape document above.
+Registration data is not "static" it is a living database that needs to be updated and maintained, to develop a conceptual understanding of this, review the landscape document above. One point to note here is that normally getting data into a registry has to be a function of "competent authorities" and processes need to be developed for controlling how this data will be entered. The next section details how data in the registries can be "brought online" securely.
 
 ### Registry API
 
@@ -46,7 +46,8 @@ Of course not all data in the registry should be available to everyone, the amou
 
 ![Registry flow](https://i.imgur.com/noCPlUf.png)
 
-The registration sandbox comes with a front end and a backend system. The [Frontend](https://airegister.herokuapp.com) is a ReactJS based app that is also [open source](github.com/openskies-sh/aircraft-registry-spa). The video above shows how to login to the frontend and then query the backend for the data. All of this can be customized as necessary and also a series of tests around load have also been developed to simulate [real-world load](https://github.com/openskies-sh/aircraftregistry/blob/master/documents/comprehensive-registry-testing.md). 
+The registration sandbox comes with a front end and a backend system, they are independent, the front can be customized or new ones can be developed. At the moment, [Frontend](https://airegister.herokuapp.com) is a ReactJS based app that is also [open source](github.com/openskies-sh/aircraft-registry-spa). The video above shows how to login to the frontend and then query the backend for the data. All of this can be customized as necessary and also a series of tests around load have also been developed to simulate [real-world load](https://github.com/openskies-sh/aircraftregistry/blob/master/documents/comprehensive-registry-testing.md). 
 
 ### Final words
-The registration sandbox shown above has been developed and deployed over a number of years of work. The goal is to provide a blueprint / reference implementation that is compatible with ICAO work and the needs of the drone eco system. As experts in registration can help you in deploying a instance and getting started with true integration. Registration is a vast and complex topic but these tools help you in deploying a secure local instance of the registry customized for your needs. I hope that this gives a good understanding of the open source registry system. 
+
+The registration sandbox shown above has been developed and deployed over a number of years of work. The goal is to provide a blueprint / reference implementation that is compatible with ICAO work and the needs of the drone eco system. As experts in registration can help you in deploying a instance and getting started with true integration. Registration is a vast and complex topic but these tools help you in deploying a secure local instance of the registry customized for your needs. I hope that this gives a good understanding of the open source registry system.
