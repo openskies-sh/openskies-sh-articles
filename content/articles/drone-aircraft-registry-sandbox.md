@@ -18,9 +18,11 @@ If you are new to registration, you are at the right place, here is everything t
 
 The system introduced here comes with a frontend, a backend a API that can be individually deployed depending on your needs and enables you to securely store and query information about aircraft, operators and people.
 
-Registering drones is similar to registering aircrafts or other vehicles e.g. cars in many ways, however it is significantly different in that given the digital airspace the data has to be "live" and brought online to be queried in real time. Registration as a topic has been tackled at various levels including at ICAO and also at national level as well. However, most of the efforts are not public and / or are not easily accessible in a way that enables testing, integration etc. This work which started at GUTMA, was undertaken to build digital interoperable registry sandbox that can be deployed easily and evolve as the needs evolve. The code referenced here is a fork from the GUTMA code and the original authors continue to maintain and support.
 
 {{< youtube 6tjoeOzJ8EY >}}
+
+Registering drones is similar to registering aircrafts or other vehicles e.g. cars in many ways, however it is significantly different in that given the digital airspace the data has to be "live" and brought online to be queried in real time. Registration as a topic has been tackled at various levels including at ICAO and also at national level as well. However, most of the efforts are not public and / or are not easily accessible in a way that enables testing, integration etc. This work which started at GUTMA, was undertaken to build digital interoperable registry sandbox that can be deployed easily and evolve as the needs evolve. The code referenced here is a fork from the GUTMA code and the original authors continue to maintain and support.
+
 
 ### What should be registered?
 
