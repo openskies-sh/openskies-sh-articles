@@ -16,15 +16,17 @@ If you are reading this article without any background in drone / aircraft regis
      - How to query data in multiple registries?
      - How to share credentials and identity across the network
 
-{{< youtube x07L-KOBXGw >}}
-
 We anticipate that we will be in a world where multiple registries will co-exist and these registries need to be able to talk to each other and securely exchange data. There are many ways to orchestrate the inter-connection, the simplest on is a broker to interact with different registries operating independently. Don't worry if it seems complicated, it really isn't as long as you keep things separated from each other.
 
-![brokerimage](https://i.imgur.com/A6b0IWO.jpg)
+{{< youtube x07L-KOBXGw >}}
+
 
 ### Registry Broker
 
+![brokerimage](https://i.imgur.com/A6b0IWO.jpg)
+
 The broker displayed above is a thin co-ordination layer that passes credentials and makes queries to the different registries. We have created and developed a sandbox [registry broker](https://github.com/openskies-sh/aircraftregistry-broker) to test and develop this concept and you can deploy it in front of your registry. As you can see in the video above, it is an application that manages the complexity of querying multiple registries seamlessly. The application has to be configured to point to the appropriate registry instances with the correct API. On a technical side, this assumes that there is an agreement between different parties operating and running the registries to share and importantly _recognize_ credentials issued by each other.
+
 
 To understand the broker, what you need to understand is that it is just a layer that knows where the registries sit. It is modeled upon the EU VAT system where it is assumed that the data in each registry will be independent and stored at different locations, so there is no "central" database what the broker does is just sends queries all the registries in the broker and once one registry returns a reply, it will store that response. This is all done in real-time, once a user submits a query, they get a id of the job that queries these registries, they have to use that id to further query the status.
 
