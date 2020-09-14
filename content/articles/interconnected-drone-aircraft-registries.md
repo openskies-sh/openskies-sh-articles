@@ -15,7 +15,9 @@ In this article you will learn:
      - How to connect different drone registries? 
      - How to query data in multiple registries?
 
-We anticipate that we will be in a world of multiple registries and these registries need to be able to talk to each other and securely exchange data. In this article you will be introduced to broker to interact with multiple registries. Don't worry if it seems complicated, it really isn't as long as you keep things separated. 
+We anticipate that we will be in a world of multiple registries and these registries need to be able to talk to each other and securely exchange data. In this article you will be introduced to broker to interact with multiple registries. Don't worry if it seems complicated, it really isn't as long as you keep things separated.
+
+{{< youtube x07L-KOBXGw >}}
 
 ### Registry Broker
 
