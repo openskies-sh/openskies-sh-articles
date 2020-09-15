@@ -1,6 +1,6 @@
 ---
 title: "Building a digital Drone + Aircraft registration sandbox / Bringing your registration data online"
-date: 2020-09-10T13:17:48+01:00
+date: 2020-08-11T13:17:48+01:00
 draft: false
 categories: [registry, identity, authentication]
 tags: ["drone registration", "registry API", "registry sandbox"]
