@@ -1,6 +1,6 @@
 ---
-title: "Developing current and future flight schedule by standardized declaration"
-date: 2020-09-11T13:18:20+01:00
+title: "Declaring current and future flight plans in a standardized fashion"
+date: 2020-09-11T00:18:20+01:00
 draft: false
 categories: ["operations", "protocol"]
 tags: ["remote id display application","flight tracking","aircraft surveillance"]
