@@ -6,9 +6,9 @@ categories: ["operations", "protocol"]
 tags: ["remote id display application","flight tracking","aircraft surveillance"]
 ---
 
-As the airspace gets busier, flight schedules and the associated geographic information must be shared and transmitted in a standard fashion. At the moment the flight plans are built on customized software or other opensource software. Most of these software have a the functionality to export flight plans as "standard" geo-referenced file e.g. see KML export in [QGroundcontrol](https://docs.qgroundcontrol.com/master/en/PlanView/PlanView.html#file).
+As the airspace gets busier, flight schedules and associated geographic information must be shared and transmitted in a standard fashion. At the moment the flight plans are built on customized software or other opensource software. Most of these software have a the functionality to export flight plans as "standard" geo-referenced file e.g. see KML export in [QGroundcontrol](https://docs.qgroundcontrol.com/master/en/PlanView/PlanView.html#file).
 
-Just like KML there are other formats to share geographical information, take a look at some proprietary and open [data formats](https://gisgeography.com/gis-formats/) that can be used to share geographic information. Do they work? Yes, perfectly.. but only if you know some of the specifics and depending on what you are trying to some work better than others.
+Just like KML, there are numerous other formats to capable of handling geographical information, just take a look at some proprietary and open [data formats](https://gisgeography.com/gis-formats/). Do they work? Yes, perfectly.. but only if you know some of the specifics and more importantly, depending on what you are trying to some work better than others.
 
 <!--more-->
 
