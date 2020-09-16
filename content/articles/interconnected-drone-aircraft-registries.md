@@ -17,7 +17,7 @@ If you are reading this article without any background in drone / aircraft regis
 - How to share credentials and identity across the network
 
 
-{{< youtube x07L-KOBXGw >}}
+{{< youtube ctQbZFcBHZ0 >}}
 
 We anticipate that we will be in a world where multiple registries will co-exist and these registries need to be able to talk to each other and securely exchange data. There are many ways to orchestrate the inter-connection, the simplest on is a broker to interact with different registries operating independently. Don't worry if it seems complicated, it really isn't as long as you keep things separated from each other.
 
