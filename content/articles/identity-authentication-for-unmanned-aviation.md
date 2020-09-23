@@ -21,15 +21,15 @@ In this article you will learn about:
 
 ### Internet standards for unmanned aviation: OAUTH
 
-Currently there are many standardization efforts ongoing around the world, most notably in ASTM, EuroCAE. The [remote ID standard](https://www.astm.org/Standards/F3411.htm) that has been developed and released advocates the use of OAUTH and JWT Tokens for sharing identity and authentication information. OAuth is a open standard for access delegation used in the Internet as way to authenticate users, grant permission on websites without giving password, it is commonly used in many commercial service providers like Google, Facebook etc.
+Currently in the unmanned aviation domain (UTM / U-Space) there are a few standardization efforts ongoing around the world, most notably in ASTM and EuroCAE. The recently released [remote ID standard](https://www.astm.org/Standards/F3411.htm) advocates the use of OAUTH and JWT Tokens for sharing identity and authentication information. OAuth is a open standard for access delegation used in the Internet as way to authenticate users, grant permission on websites without giving password, it is commonly used in many commercial service providers like Google, Facebook etc.
 
 The fundamental concept that you need to understand is that OAUTH provides "secure delegated access" (source: [Wikipedia](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0)) to resources on behalf of the resource owner. What does secure delegated access mean? Quite simply you are developing a system to accept identity and other information issued by a different service and based on the data allow access to resources on your server. This is how "Login with Facebook" works: You let the user login using Facebook and you accept that once they login successfully, you accept the credentials and other details provided by Facebook, although you never access the user's email or password etc. This is of course a simplistic way to put it but the concept is the same.
 
-Technically, OAUTH can be difficult to understand, if you really want to get a good introduction, it is a bit more detailed and technical I would recommend that you watch this video [OAUTH 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0).
+OAUTH can be difficult to understand, if you really want to get a good introduction, that is comprehensive and technical I would recommend that you watch this video [OAUTH 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0).
 
-This technique of "secure delegated access" has been proposed in the standards developed by ASTM, we will not get into if it is the most appropriate one, it is the one that there is a consensus that it can be useful to solve the issues we face today. For a more detail / in-depth understanding of JWTs you can review the [Hard parts of JWT](https://www.pingidentity.com/en/company/blog/posts/2019/jwt-security-nobody-talks-about.html).
+This technique of "secure delegated access" has been proposed in the standards released by ASTM, we will not get into if this technology is the most appropriate one, it is the one that there is a consensus that it can be useful to solve the issues we face today. For a more detailed / in-depth understanding of JWTs you can review [hard parts of JWT](https://www.pingidentity.com/en/company/blog/posts/2019/jwt-security-nobody-talks-about.html).
 
-In the ASTM context, with you use a software like [InterUSS](https://www.interuss.org), you must use A JWT or JSON Web Token. If you look at the [standard API](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/uastech/standards/astm_rid_1.0/remoteid/canonical.yaml) looks like the following:
+In the ASTM context, when you use a software like [InterUSS](https://www.interuss.org), you must use an JWT to pass credentials. If you look at the [standard API](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/uastech/standards/astm_rid_1.0/remoteid/canonical.yaml) the token looks like the following:
 
 ``` json
 {
@@ -44,14 +44,14 @@ In the ASTM context, with you use a software like [InterUSS](https://www.interus
 }
 ```
 
-By using a Token with the information above, you can access resources in the eco-system. The question is how do you issue tokens? How do you identify who gets to make the requests for tokens.
+By using a Token with the information above, you can access resources in the eco-system via InterUSS. The question is how do you issue tokens? How do you identify who gets to make the requests for tokens.
 
 ### Problems with existing providers
 
 The good news is that OAUTH 2.0 and the associated OpenID standard are open standards and there a number of commercial and open source solutions available. Broadly I would classify them as:
 
 - Big Cloud: e.g. Amazon AWS Cognito, Microsoft Azure Active Directory, Google Cloud Identity etc.
-- Large Players: e.g. Auth0, OKTA etc. 
+- Large Players: e.g. Auth0, OKTA etc.
 - Opensource / self-host: e.g. Key Cloak, ORY Hydra, Gluu Server etc. You can look at a more comprehensive list on the [OAUTH website](https://oauth.net/code/)
 
 The are a number of issues with these solutions:
