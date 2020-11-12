@@ -31,11 +31,11 @@ These are a complicated set of operations, we will focus on left hand side of th
 
 ### Flight Blender: ASTM-standards compatible Remote ID operations
 
-We already have a flight feed aggregator called Flight Blender, you can read the related [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/)introducing it. We have now developed a "DSS module" inside Flight Blender. This module does the communication with the DSS and processes the queries to show it on Display Applications e.g. [Flight Spotlight](https://flightspotlight.com). Take a look at the system image below.
+We already have a flight feed aggregator called Flight Blender, you can read the related [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/) introducing it. We have now developed a "DSS module" inside Flight Blender. This module does the communication with the DSS and processes the queries to show it on Display Applications e.g. [Flight Spotlight](https://flightspotlight.com). Take a look at the system image below.
 
 ![Flight Blender Flow](/images/blender-public.png)
 
-The Remote-ID module at the moment is compatible with the released ASTM standard for network Remote ID, so that you don't have to understand the standard to enable Remote-ID operations. 
+The Remote-ID module at the moment is compatible with the released ASTM standard for network Remote ID, so that you don't have to understand the standard to enable Remote-ID operations, it is done for you. 
 
 ### Get Remote-ID capability
 
