@@ -6,7 +6,7 @@ categories: ["air traffic", "remote id",]
 tags: ["remote id display application","remote id display provider"]
 ---
 
-There has been a flurry of activity around standardization of drone operations to support innovation, performance and safety. In this article we will focus on the specific topic of Remote ID for drones. 
+There has been a flurry of activity around standardization of drone operations to support innovation, performance and safety. In this article we will focus on the specific topic of Remote ID for drones.
 
 <!--more-->
 
@@ -35,7 +35,7 @@ We already have a flight feed aggregator called Flight Blender, you can read the
 
 ![Flight Blender Flow](/images/blender-public.png)
 
-The Remote-ID module at the moment is compatible with the released ASTM standard for network Remote ID, so that you don't have to understand the standard to enable Remote-ID operations, it is done for you. 
+The Remote-ID module at the moment is compatible with the released ASTM standard for network Remote ID, so that you don't have to understand the standard to enable Remote-ID operations, it is done for you.
 
 ### Get Remote-ID capability
 
