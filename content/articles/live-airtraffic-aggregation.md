@@ -21,11 +21,11 @@ The image above depicts this. To develop a real-time picture of the sky, these f
 
 There are fundamental computing and network barriers to have this level of performance and as of 2020 is restricted to research labs, for our article and most drone detection and tracking a 1 sec update is considered acceptable and in some cases even too much.
 
-How does one process multiple flight data feeds? You don't have to start from scratch to invent your own processing engine. 
+How does one process multiple flight data feeds? You don't have to start from scratch to invent your own processing engine.
 
 ### Flight Blender: Flight data Aggregation and Normalization
 
-To help in processing of raw flight tracking data and normalizing it, we have developed [Flight Blender](https://www.github.com/openskies-sh/flight-blender). The first thing to understand / configure here is how often you want to refresh / normalize the data. We recommend 1 second since as of 2020 it is considered good enough, although every 3 seconds might work as well. Once this is finalized you can set this in the application, run it on the internet or your private network / computer and point your flight data feeds to it. The streams will be processed and normalized and a "live" data stream would be submitted on the other side every X seconds for use in displays and other software. You can install this using the [installation instructions](https://github.com/openskies-sh/flight-blender#installation) or we can help with installation and customization as necessary.
+To help in processing of raw flight tracking data and normalizing it, we have developed [Flight Blender](https://flightblender.com). The first thing to understand / configure here is how often you want to refresh / normalize the data. We recommend 1 second since as of 2020 it is considered good enough, although every 3 seconds might work as well. Once this is finalized you can set this in the application, run it on the internet or your private network / computer and point your flight data feeds to it. The streams will be processed and normalized and a "live" data stream would be submitted on the other side every X seconds for use in displays and other software. You can install this using the [installation instructions](https://github.com/openskies-sh/flight-blender#installation) or we can help with installation and customization as necessary.
 
 ### Final thoughts
 
