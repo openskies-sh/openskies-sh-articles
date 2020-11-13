@@ -29,13 +29,13 @@ Remote ID is a deep topic but in this article we will focus on the Network Remot
 
 These are a complicated set of operations, we will focus on left hand side of the chart: "Display Application" and "Display Provider", these are the two software that users will interact with. The "Display Provider" is basically a server that interacts with the DSS and the operators or the service provider. This display provider actually queries the network and picks up the flight feeds and direct it to a "Display Application" which could be a website or a App or any screen really. The standard makes a distinction between "Display Provider" and "Display Application" and we have now built a open source provider that can be used to Remote ID queries to the network.
 
-### Flight Blender: ASTM-standards compatible Remote ID operations
+### Flight Blender: ASTM-standards compatible Remote ID Display Provider
 
-We already have a flight feed aggregator called Flight Blender, you can read the related [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/) introducing it. We have now developed a "DSS module" inside Flight Blender. This module does the communication with the DSS and processes the queries to show it on Display Applications e.g. [Flight Spotlight](https://flightspotlight.com). Take a look at the system image below.
+We already have a flight feed aggregator called Flight Blender, you can read the related [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/) introducing it. We have now developed a "Network Remote-ID module" inside Flight Blender. This module manages the communication with the DSS and the Service providers. These include querying and downloading the data to show it on a "Display Applications" e.g. [Flight Spotlight](https://flightspotlight.com). Take a look at the system image below.
 
 ![Flight Blender Flow](/images/blender-public.png)
 
-The Remote-ID module at the moment is compatible with the released ASTM standard for network Remote ID, so that you don't have to understand the standard to enable Remote-ID operations, it is done for you.
+The Remote-ID module at the moment is compatible with the released ASTM standard for network Remote ID, so that you don't have to understand the standard to enable Remote-ID operations, it is done for you. 
 
 ### Get Remote-ID capability
 
