@@ -1,5 +1,5 @@
 ---
-title: "An open-source standards compliant Remote-ID Display Provider and Application"
+title: "An open-source standards-compliant Remote-ID Display Provider and Application"
 date: 2020-11-12T13:16:50+01:00
 draft: False
 categories: ["air traffic", "remote id",]
@@ -10,33 +10,36 @@ There has been a flurry of activity around standardization of drone operations t
 
 <!--more-->
 
-ASTM has taken a lead in some of the standard making activities as a part of [The Committee on Unmanned Aircraft Systems (F38)](https://www.astm.org/industry/unmanned-aircraft-overview.html). While the committee is broadly focused on a wide range of aspects of un-manned aviation, from a UTM / U-Space point of view they have recently released a standard for [Remote ID](https://www.astm.org/Standards/F3411.htm).
+ASTM's committee on Unmanned Aircraft Systems [F38](https://www.astm.org/industry/unmanned-aircraft-overview.html) has addressed a wide range of un-manned system (UAS) standardization and has recently released a standard for [Remote ID](https://www.astm.org/Standards/F3411.htm).
 
-There are a lot of details about Remote ID but to put it in a concise way, Remote Identification (Remote ID) of unmanned aircrafts allows Government and Civil bodies to identify UAS for safety, security and compliance purposes. This identification is done securely, preserving privacy and through a series of steps utilizing different technologies. Broadly Remote ID is of two types:
+UAS Remote Identification (Remote-ID) allows Government and private entities identify UAS for safety, security and compliance purposes. Remote ID is undertaken securely, preserving privacy and through a series of protocols utilizing different techniques and technologies. Broadly, Remote-ID (RID) is of two types:
 
-- Broadcast Remote ID
-- Network Remote ID (Net-RID)
+- Broadcast RID
+- Network RID (Net-RID)
 
-Broadcast remote is emitted directly from the drone via public WiFi Channels, Bluetooth 4.0 and 5.0 and received using a range of equipment including specialized antennas common smartphones. Network Remote ID is shared via a TCP/IP network, normally via the operator of the drone. Since there may be many operators in a airspace, the orchestration of this network Remote ID done by a piece of software called [Discovery and Synchronization (DSS)](https://github.com/interuss/dss). The DSS enables communication between different operators, authorities and stakeholders. There are provisions for exchanging dynamic restrictions, supplemental data (e.g. weather) etc. as well. Broadcast and Network remote IDs have their pros and cons but network Remote-ID considered a robust scalable way to identify drones.
+Broadcast RID is emitted directly from the drone via public WiFi Channels, Bluetooth 4.0 and 5.0 and received via widely available equipment including antennas common within common smartphones. Network RID is shared via a TCP/IP network, normally through the operator's software. Since there may be many proximate operators, the orchestration of this network RID is accomplished via software called [Discovery and Synchronization (DSS)](https://github.com/interuss/dss). The DSS enables communication between operators, authorities and stakeholders. There are provisions for exchanging dynamic restrictions and supplemental data (e.g., weather) etc. within the DSS. Broadcast and Network RIDs have pros and cons but Network RID considered a robust scalable way to identify drones.
 
 ### How do you identify drones?
 
-Remote ID is a deep topic but in this article we will focus on the Network Remote ID and the how the standard deals with displaying Network Remote ID. See the sample flow of how a "[Network Remote ID flow](https://github.com/interuss/dss/blob/master/assets/generated/rid_display.png)" works.
+This article we will focuses on the Network RID and how the RID standard addresses displaying Network RID. See the sample flow depicting how a "[Network Remote ID flow](https://github.com/interuss/dss/blob/master/assets/generated/rid_display.png)" works.
 
 ![RID Flow image](/images/rid_display.png)
 
 ### Display Provider and Display Applications
 
-These are a complicated set of operations, we will focus on left hand side of the chart: "Display Application" and "Display Provider", these are the two software that users will interact with. The "Display Provider" is basically a server that interacts with the DSS and the operators or the service provider. This display provider actually queries the network and picks up the flight feeds and direct it to a "Display Application" which could be a website or a App or any screen really. The standard makes a distinction between "Display Provider" and "Display Application" and we have now built a open source provider that can be used to Remote ID queries to the network.
+These are a complicated set of operations focusing on left hand side of the chart: "Display Application" and "Display Provider". These are the two software applications with which end-users and stakeholders interact. The "Display Provider" is effectively a server that interacts with the DSS and the drone operators or service providers. This "Display Provider" queries the network, picks up the flight feeds, and directs it to a "Display Application". A "Display Application" could be a website or a App for a phone or a tablet installed on the users phone or computer. The standard makes a distinction between "Display Provider" and "Display Application". We have have built a open source resources for both. When used in conjunction, they can be used for RID queries to the network. They are:
+
+- [Flight Spotlight](https://flightspotlight.com) (Display Application)
+- [Flight Blender](https://flightblender.com) (Display Provider)
 
 ### Flight Blender: ASTM-standards compatible Remote ID Display Provider
 
-We already have a flight feed aggregator called Flight Blender, you can read the related [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/) introducing it. We have now developed a "Network Remote-ID module" inside Flight Blender. This module manages the communication with the DSS and the Service providers. These include querying and downloading the data to show it on a "Display Applications" e.g. [Flight Spotlight](https://flightspotlight.com). Take a look at the system image below.
+We already offer a flight feed aggregator called Flight Blender, see the [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/) introducing it. We have recently introduced a "Network Remote-ID module" inside Flight Blender for communication with the DSS and the service providers. These include querying and downloading the data to show it on a "Display Applications" e.g. [Flight Spotlight](https://flightspotlight.com). Consider the system image below.
 
 ![Flight Blender Flow](/images/blender-public.png)
 
-The Remote-ID module at the moment is compatible with the released ASTM standard for network Remote ID, so that you don't have to understand the standard to enable Remote-ID operations, it is done for you. 
+The current Remote-ID module is compatible with the ASTM standard for network RID. Consequently you need not understand the standard to enable Remote-ID operations, it is simply done for you.
 
 ### Get Remote-ID capability
 
-You can install this using the [installation instructions](https://github.com/openskies-sh/flight-blender#installation) and host it on your own infrastructure or we can host a instance for you to enable network Remote-ID capability. We can help with installation and customization as necessary, taking into account the security considerations and other specific needs that your organization may have. 
+You can install using the simple [installation instructions](https://github.com/openskies-sh/flight-blender#installation), it is Docker enabled. You have the choice to host it on your own infrastructure or we can host a instance for you to enable network RID capability. We can help with installation and customization as necessary, taking into account the security and other specific requirements your organization may have.
