@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "{open}skies.sh"
 theme = "hugo-ink"
 
-copyright = "Openskies Aerial Technology Limited"
+copyright = "Openskies Aerial Technology Limited. All rights reserved."
 
 # Enable syntax highlighting.
 pygmentsstyle = "solarized-dark"
