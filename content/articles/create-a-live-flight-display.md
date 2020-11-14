@@ -48,8 +48,8 @@ As you can see, once the flight data is submitted, you can see it live on the ap
 
 ### Installation and Security
 
-There is a detailed [installation guide](https://github.com/openskies-sh/flight-spotlight/blob/master/documents/installation-instructions.md) that details how you can install it on your server, as mentioned earlier, we can install it for you as well. The whole application is secured using standard OAUTH technology, that we have developed that is also opensource: [Flight Passport](https://www.github.com/openskies-sh/flight-passport). You can choose to integrate it with your preferred security, identity technology as well.
+There is a detailed [installation guide](https://github.com/openskies-sh/flight-spotlight/blob/master/documents/installation-instructions.md) that details how you can install it on your server, as mentioned earlier, we can install it for you as well. The whole application is secured using standard OAUTH technology, that we have developed that is also open-source: [Flight Passport](https://id.openskies.sh). You can choose to integrate it with your preferred security, identity technology as well.
 
 ### Final thoughts
 
-We now have a working display of flights that can be streamed by using a few docker commands. The next question is how is data going to be aggregated and fed in to the system? We will touch upon this in [another article]({{< ref "live-airtraffic-aggregation.md" >}}), we use [Flight Blender](https://www.flightblender.com). This way you can securely connect to the airspace by self hosting a Flight Spotlight instance and display flight data.
+We now have a working display of flights that can be streamed by using a few docker commands. The next question is how is data going to be aggregated and fed in to the system? We will touch upon this in [another article]({{< ref "live-airtraffic-aggregation.md" >}}), we use [Flight Blender](https://flightblender.com). This way you can securely connect to the airspace by self hosting a Flight Spotlight instance and display flight data.
