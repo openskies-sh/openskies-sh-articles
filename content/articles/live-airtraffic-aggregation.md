@@ -1,5 +1,5 @@
 ---
-title: "Simple, high performance air-traffic data aggregation and normalization"
+title: "High performance air-traffic data aggregation and normalization"
 date: 2020-09-10T13:16:50+01:00
 draft: false
 categories: ["air traffic", "remote id",]
