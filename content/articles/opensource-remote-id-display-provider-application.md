@@ -38,7 +38,7 @@ We already offer a flight feed aggregator called Flight Blender, see the [articl
 
 ![Flight Blender Flow](/images/blender-public.png)
 
-The current Remote-ID module is compatible with the ASTM standard for network RID and will be updated as the standard progresses. Consequently you need not understand the standard to enable Remote-ID operations, it is simply done for you. Of course as other network based Remote-ID standards appear, we will build support for them as well within Flight Blender as modules.
+The current Remote-ID module is compatible with the ASTM standard for network RID and will be updated as the standard progresses. Consequently you need not understand the standard to enable Remote-ID operations, it is simply done for you. Of course as other network based Remote-ID standards appear, we will build support for them as well within Flight Blender as additional modules.
 
 ### Get Network Remote-ID capability
 
