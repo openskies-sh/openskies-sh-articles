@@ -38,8 +38,8 @@ We already offer a flight feed aggregator called Flight Blender, see the [articl
 
 ![Flight Blender Flow](/images/blender-public.png)
 
-The current Remote-ID module is compatible with the ASTM standard for network RID. Consequently you need not understand the standard to enable Remote-ID operations, it is simply done for you.
+The current Remote-ID module is compatible with the ASTM standard for network RID and will be updated as the standard progresses. Consequently you need not understand the standard to enable Remote-ID operations, it is simply done for you. Of course as other network based Remote-ID standards appear, we will build support for them as well within Flight Blender as modules.
 
-### Get Remote-ID capability
+### Get Network Remote-ID capability
 
 You can install using the simple [installation instructions](https://github.com/openskies-sh/flight-blender#installation), it is Docker enabled. You have the choice to host it on your own infrastructure or we can host a instance for you to enable network RID capability. We can help with installation and customization as necessary, taking into account the security and other specific requirements your organization may have.
