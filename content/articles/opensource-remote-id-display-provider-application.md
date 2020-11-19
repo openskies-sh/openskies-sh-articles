@@ -10,6 +10,8 @@ There has been a flurry of activity around standardization of drone operations t
 
 <!--more-->
 
+If you already know about Remote-ID, and just want to install a Display Provider and Application just jump to [installation instructions](#deploy-flight-blender). 
+
 ASTM's committee on Unmanned Aircraft Systems [F38](https://www.astm.org/industry/unmanned-aircraft-overview.html) has worked on a wide range of un-manned aviation systems (UAS) standardization and has recently released a standard for [Remote ID](https://www.astm.org/Standards/F3411.htm).
 
 UAS Remote Identification (Remote-ID) allows Government and private entities to identify UAS for safety, security and compliance purposes. Remote ID is undertaken securely, preserving privacy and through a series of protocols utilizing different techniques and technologies. Broadly, Remote-ID (RID) is of two types:
@@ -40,6 +42,6 @@ We already offer a flight feed aggregator called Flight Blender, see the [articl
 
 The current Remote-ID module is compatible with the ASTM standard for network RID and will be updated as the standard progresses. Consequently you need not understand the standard to enable Remote-ID operations, it is simply done for you. Of course as other network based Remote-ID standards appear, we will build support for them as well within Flight Blender as additional modules.
 
-### Get Network Remote-ID capability
+### Deploy Flight Blender
 
 If you have the capability, you can install using the straight forward [installation instructions](https://github.com/openskies-sh/flight-blender#installation) using Docker. You have the choice to host it on your own infrastructure or we can host a instance for you to enable network RID capability. We can help with installation and customization as necessary, taking into account the security and other specific requirements your organization may have.
