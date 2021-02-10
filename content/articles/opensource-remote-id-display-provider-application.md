@@ -34,6 +34,11 @@ These are a complicated set of operations, focusing on left hand side of the cha
 - [Flight Spotlight](https://flightspotlight.com) (Display Application)
 - [Flight Blender](https://flightblender.com) (Display Provider)
 
+### See it in action
+
+{{< youtube 21YbsUhaDZ0 >}}
+
+
 ### Flight Blender: ASTM-standards compatible Remote ID Display Provider
 
 We already offer a flight feed aggregator called Flight Blender, see the [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/) introducing it. We have recently introduced a "Network Remote-ID module" inside Flight Blender for communication with the DSS and the service providers. These include querying and downloading the data to show it on a "Display Applications" e.g. [Flight Spotlight](https://flightspotlight.com). Consider the system image below.
