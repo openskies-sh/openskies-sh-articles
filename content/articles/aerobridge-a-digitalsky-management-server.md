@@ -20,7 +20,7 @@ This puts a heavy burden on the drone manufacturers and operators who now have t
 
 Aerobridge is an open-source implementation of this Management Server that addresses these key issues: it helps with data storage, integration with Digital Sky, compatibility GCS and the Registered Flight Module. In India, recently, there have been developments in the UAS ecosystem and the first draft of the [National Unmanned Aircraft Traffic Management Policy](https://www.civilaviation.gov.in/sites/default/files/National-UTM-Policy-Discussion-Draft-30-Nov-2020-updated.pdf) transitions the current monolithic Digital Sky infrastructure to a federation of traffic management and other services interacting with Digital Sky via a Digital Sky UTM Service Provider. As the regulatory environment changes, Aerobridge will continue to evolve.
 
-### Aerobridge Stack
+### Aerobridge now and future
 
 ![RID Flow image](/images/aerobridge-diagram-full.png)
 
