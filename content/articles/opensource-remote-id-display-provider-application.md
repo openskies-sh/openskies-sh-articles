@@ -1,5 +1,5 @@
 ---
-title: "An open-source standards-compliant Remote-ID Display Provider and Application"
+title: "Flight Blender + Spotlight: A standards-compliant Remote-ID Display Provider and Application"
 date: 2020-11-12T13:16:50+01:00
 draft: False
 categories: ["air traffic", "remote id",]
@@ -10,7 +10,7 @@ There has been a flurry of activity around standardization of drone operations t
 
 <!--more-->
 
-If you already know about Remote-ID, and just want to install a Display Provider and Application just jump to [installation instructions](#deploy-flight-blender). 
+If you already know about Remote-ID, and just want to install a Display Provider and Application just jump to [installation instructions](#deploy-flight-blender).
 
 ASTM's committee on Unmanned Aircraft Systems [F38](https://www.astm.org/industry/unmanned-aircraft-overview.html) has worked on a wide range of un-manned aviation systems (UAS) standardization and has recently released a standard for [Remote ID](https://www.astm.org/Standards/F3411.htm).
 
@@ -43,7 +43,7 @@ These are a complicated set of operations, focusing on left hand side of the cha
 
 We already offer a flight feed aggregator called Flight Blender, see the [article](https://www.openskies.sh/articles/live-airtraffic-aggregation/) introducing it. We have recently introduced a "Network Remote-ID module" inside Flight Blender for communication with the DSS and the service providers. These include querying and downloading the data to show it on a "Display Applications" e.g. [Flight Spotlight](https://flightspotlight.com). Consider the system image below.
 
-![Flight Blender Flow](/images/blender-public.png)
+![Flight Blender Flow](/images/openskies-stack.png)
 
 The current Remote-ID module is compatible with the ASTM standard for network RID and will be updated as the standard progresses. Consequently you need not understand the standard to enable Remote-ID operations, it is simply done for you. Of course as other network based Remote-ID standards appear, we will build support for them as well within Flight Blender as additional modules.
 

@@ -1,6 +1,6 @@
 ---
-title: "Declaring current and future flight plans in a standardized fashion"
-date: 2020-09-11T00:18:20+01:00
+title: "Flight Launchpad: Declaring current and future flight plans in a standardized fashion"
+date: 2020-09-11
 draft: false
 categories: ["operations", "protocol"]
 tags: ["remote id display application","flight tracking","aircraft surveillance"]
@@ -27,6 +27,14 @@ While the published GUTMA protocol is a great step forward, there are certain de
 - GeoJSON does not specifically allow volumetric information which is critical for flight path declarations.
   
 The `sequence number` and `parts` are the two main things that are different in the development version of the protocol The `parts` field is now a GeoJSON `FeatureCollection` and every feature has a associated property that holds flight information about that part of the fight and the `sequence number` is a UNIX timestamp now which is still a number but this enables temporal processing of flight declarations.
+
+### Flight Launchpad
+
+- [Flight Launchpad](https://github.com/openskies-sh/flight-launchpad) (Declaring flights)
+
+### See it in action
+
+{{< youtube 8s67Z_EOXI4 >}}
 
 ### Integration with Live air-traffic
 

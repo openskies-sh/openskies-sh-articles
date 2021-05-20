@@ -15,7 +15,7 @@ pygmentscodefencesguesssyntax = true
 paginate = 10
 
 # Number of characters to show in summary.
-summaryLength = 20
+summaryLength = 25
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.

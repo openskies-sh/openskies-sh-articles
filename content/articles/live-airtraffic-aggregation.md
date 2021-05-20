@@ -1,5 +1,5 @@
 ---
-title: "High performance air-traffic data aggregation and normalization"
+title: "Flight Blender: High performance air-traffic data aggregation and normalization"
 date: 2020-09-10T13:16:50+01:00
 draft: false
 categories: ["air traffic", "remote id",]
