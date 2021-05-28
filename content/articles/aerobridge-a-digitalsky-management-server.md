@@ -6,8 +6,6 @@ categories: ["aerobridge", "India","digital sky"]
 tags: ["Management Server","Digital Sky"]
 ---
 
-There has been a flurry of activity around standardization of drone operations to support innovation, performance and safety. In this article we will focus on the specific topic of Remote-ID for drones.
-
 The Civil Aviation Authority of India, DGCA, released the RPAS Guidance Manual, which makes it mandatory for the drone to be interfaced with the Digital Sky Infrastructure for flight authorizations. The Digital Sky infrastructure works on concepts of Public Key Infrastructure (PKI) to authorize, identify and validate the identity of the different stakeholders and also of flight operations.
 <!--more-->
 
