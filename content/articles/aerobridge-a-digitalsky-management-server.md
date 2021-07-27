@@ -1,5 +1,5 @@
 ---
-title: "Aerobridge: A open-source manufacturers management server for India"
+title: "Aerobridge: An open-source management server for India"
 date: 2020-12-11
 draft: False
 categories: ["aerobridge", "India","digital sky"]
@@ -8,7 +8,6 @@ tags: ["Management Server","Digital Sky"]
 
 The Civil Aviation Authority of India, DGCA, released the RPAS Guidance Manual, which makes it mandatory for the drone to be interfaced with the Digital Sky Infrastructure for flight authorizations. The Digital Sky infrastructure works on concepts of Public Key Infrastructure (PKI) to authorize, identify and validate the identity of the different stakeholders and also of flight operations.
 <!--more-->
-
 
 In reality, the Digital Sky and No Permission No Takeoff (NPNT) architecture means that not only the manufacturer but also the operator (who may or may not be the same entity) needs to be involved in acquiring and transferring sensitive data from Digital Sky to the drone and vice versa.
 
@@ -34,16 +33,15 @@ A permission artefact downloaded from Digital Sky has to be transferred to the d
 
 ### Blazing the trail in India
 
-The Digital Sky is a unique architecture that satisfies the important considerations of security, data integrity and auditability of drone operations. The reliance on PKI and other open technologies to sign data ensures that well known and robust security mechanisms and interfaces are utilized. However, this technologically intensive workflow imposes a huge burden of compliance understanding on the manufacturers and operators. 
+The Digital Sky is a unique architecture that satisfies the important considerations of security, data integrity and auditability of drone operations. The reliance on PKI and other open technologies to sign data ensures that well known and robust security mechanisms and interfaces are utilized. However, this technologically intensive workflow imposes a huge burden of compliance understanding on the manufacturers and operators.
 This is especially pronounced for small companies (SMEs) in the Indian ecosystem where the resources are limited and there is sometimes no capacity to invest in understanding and implementing this infrastructure. Manufacturers are focused on certification and other hardware / manufacturing aspects of their company and operators are focused on the operations and pilots side. This affects both local manufacturers and operators stunting the ecosystem and limits hardware and operational innovation.
 
 Aerobridge project, therefore, serves two important purposes for the Indian Drone Ecosystem and potentially for projects like PX4 and Ardupilot:
 
 - Providing reference / best in class implementations for compliance thereby enabling any operator / manufacturer large or small a clear ramp to compliance and speeds up their ability to join the ecosystem.
- 
 - Build capacity in the ecosystem for world class open solutions to drone security, operation auditability as the ecosystem evolves. Aerobridge has built a small but thriving community of engineers innovating on open technologies around Digital Sky and drone operations in India.
   
-### Aerobridge Community 
+### Aerobridge Community
 
 The community and its engineering focus on the project provides a blueprint for the organization of drone communities in India’s neighborhood or jurisdictions where a Digital Sky like infrastructure might be of interest. We have been able to get together a group of technical engineers who understand drone operations and provide technical solutions to regulatory challenges. Communities like Aerobridge work symbiotically with the broader drone open-source community working at a different level of the ecosystem.
 
