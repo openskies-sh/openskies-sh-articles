@@ -2,8 +2,8 @@
 title: "Aerobridge: An open-source operations management server"
 date: 2020-12-11
 draft: False
-categories: ["aerobridge", "India","digital sky"]
-tags: ["Management Server","Digital Sky"]
+categories: ["aerobridge", "India","cyber security"]
+tags: ["Management Server","Operations"]
 ---
 
 Aerobridge is a secure operations management server that helps operators and manufacturers secure their equipment and operations using Public Key Infrastructure and commonly available identity and authentication standards.
