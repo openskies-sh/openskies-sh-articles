@@ -1,5 +1,5 @@
 ---
-title: "Aerobridge: An secure operations management server"
+title: "Aerobridge: Secure your drone operations"
 date: 2020-12-11
 draft: False
 categories: ["aerobridge", "India","cyber security"]
