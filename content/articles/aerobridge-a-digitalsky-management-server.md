@@ -1,39 +1,41 @@
 ---
-title: "Aerobridge: An open-source management server for India"
+title: "Aerobridge: An open-source operations management server"
 date: 2020-12-11
 draft: False
 categories: ["aerobridge", "India","digital sky"]
 tags: ["Management Server","Digital Sky"]
 ---
 
-The Civil Aviation Authority of India, DGCA, released the RPAS Guidance Manual, which makes it mandatory for the drone to be interfaced with the Digital Sky Infrastructure for flight authorizations. The Digital Sky infrastructure works on concepts of Public Key Infrastructure (PKI) to authorize, identify and validate the identity of the different stakeholders and also of flight operations.
+Aerobridge is a secure operations management server that helps operators and manufacturers secure their equipment and operations using Public Key Infrastructure and commonly available identity and authentication standards.
 <!--more-->
 
-In reality, the Digital Sky and No Permission No Takeoff (NPNT) architecture means that not only the manufacturer but also the operator (who may or may not be the same entity) needs to be involved in acquiring and transferring sensitive data from Digital Sky to the drone and vice versa.
+Securing drone operation is a important consideration as drone flights scale up. Once a flight permission is issued how does a company ensure that the flight path for which the permission was granted is the one that is actually flown? How does a company that operates a drone ensure basic level of operational security? This kind of system is fairly common for private companies in IT. For e.g. once a company issues you a laptop they can specify what apps can and cannot be installed on it. In the same way, a employee who is no longer associated with the company should not be able to fly or operate company equipment
 
-This puts a heavy burden on the drone manufacturers and operators who now have to understand the workings of PKI and additionally to store and manage and share sensitive data. In the absence of digital infrastructure, these operations are time-consuming and problematic in the long term and most importantly do not scale. The RPAS guidance manual recognizes this and proposes the concept of a “manufacturer’s management server” to help with this.
+To run a world-class drones operation, a operator needs to build a digital storage, security, auditing system and be compliant with regulations. All of this puts a heavy burden on the drone manufacturers and operators who now have to understand the workings of PKI and additionally to store and manage and share sensitive data. In the absence of digital infrastructure, these operations are time-consuming and problematic in the long term and most importantly do not scale. Therefore we have built a entire system of storage, security and identity for operators and secure their operations.
 
 ### Introduction
 
-Aerobridge is an open-source implementation of this Management Server that addresses these key issues: it helps with data storage, integration with Digital Sky, compatibility GCS and the Registered Flight Module. In India, recently, there have been developments in the UAS ecosystem and the first draft of the [National Unmanned Aircraft Traffic Management Policy](https://www.civilaviation.gov.in/sites/default/files/National-UTM-Policy-Discussion-Draft-30-Nov-2020-updated.pdf) transitions the current monolithic Digital Sky infrastructure to a federation of traffic management and other services interacting with Digital Sky via a Digital Sky UTM Service Provider. As the regulatory environment changes, Aerobridge will continue to evolve.
+Aerobridge is an open-source implementation a Management Server that addresses these key issues: it helps with data storage, integration with Identity and Authentication technologies, compatibility GCS and the Registered Flight Module e.g. ArduPilot. The project does in the open source by following commonly available and popular technologies that are used on the internet e.g. OAUTH and JSON Web Signatures and Tokens. These are also used in the current and upgoing standards in the drone ecosystem therefore this will be compatible with any upcoming regulations.
 
-### Aerobridge now and in the future
+### Aerobridge + Aerobridge Guardian
 
-![RID Flow image](/images/aerobridge-diagram-full.png)
+![Aerobridge Guardian](/images/aerobridge-guardian-system.png)
 
-The Aerobridge server interfaces with different aspects of the current and proposed components of the regulatory ecosystem:
+The Aerobridge management server Aerobridge Guardian (the GCS integration) interfaces with different aspects of this system via well-defined APIS, following are the key components:
 
-1. Digital Sky / Digital Sky UTMSP - As the Digital Sky ecosystem evolves and the regulators bring in changes to policy and add additional supplemental data and service requirements, Aerobridge will maintain compatibility with these changes.
+1. An Authorization server (Flight Passport) - This is a OAUTH server that issues and signs JSON web tokens and JSON web signatures. OAUTH is a industry standard and in this case we use a server specifically developed for drones [Flight Passport](https://github.com/openskies-sh/flight_passport), you can see more information about OAUTH, the need for a server to focus on drones on the repository. 
 
-2. The management server - It interacts with Digital Sky APIs, stores keys of the drone flight module, and also grants secure access to 3rd Party applications. These are done via a set of standardized, well-documented APIs that have been tested.
+2. The management server (Aerobridge)- It interacts with Authorization server, acts as a data storage for keys, and also grants secure access to 3rd Party applications. These are done via a set of standardized, well-documented APIs that have been tested. You can see the [Aerobrige API](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/openskies-sh/aerobridge/master/api/aerobridge-1.0.0.resolved.yaml) or explore the [front end](https://aerobridgetestflight.herokuapp.com/launchpad/)
 
-3. Ground Control station, Firmware and Bootloader -  The Ground Control software or management client is that bridges the gap between the management server and the drone.
+3. Ground Control station, Firmware and Bootloader (Aerobridge Guardian) -  The Ground Control software or management client is that bridges the gap between the management server and the drone. You can see the current implementation based on [QGroundcontrol](https://github.com/openskies-sh/qgroundcontrol)
 
-A permission artefact downloaded from Digital Sky has to be transferred to the drone and the flight controller is required to arm the drone once the validity has been verified. In addition, flight logs have to be signed by the flight controller and sent back to Digital Sky. We anticipate that we will be building integrations with QGC and a PX4/Ardupilot to cryptographically check the permission artefacts and sign flight logs.  
+A permission object as a JSON web signature is downloaded from the authorization server has to be transferred to the drone and the flight controller is required to arm the drone once the validity has been verified. In addition, flight logs have to be signed by the flight controller and sent back to Aerobridge, closing the loop. A full workflow is below: 
+
+![Aerobridge Guardian Workflow](/images/aerobridge-guardian.png)
 
 ### Blazing the trail in India
 
-The Digital Sky is a unique architecture that satisfies the important considerations of security, data integrity and auditability of drone operations. The reliance on PKI and other open technologies to sign data ensures that well known and robust security mechanisms and interfaces are utilized. However, this technologically intensive workflow imposes a huge burden of compliance understanding on the manufacturers and operators.
+The Aerobridge Guardian is a unique architecture that satisfies the important considerations of security, data integrity and auditability of drone operations. The reliance on PKI and other open technologies to sign data ensures that well known and robust security mechanisms and interfaces are utilized. However, this technologically intensive workflow imposes a huge burden of compliance understanding on the manufacturers and operators.
 This is especially pronounced for small companies (SMEs) in the Indian ecosystem where the resources are limited and there is sometimes no capacity to invest in understanding and implementing this infrastructure. Manufacturers are focused on certification and other hardware / manufacturing aspects of their company and operators are focused on the operations and pilots side. This affects both local manufacturers and operators stunting the ecosystem and limits hardware and operational innovation.
 
 Aerobridge project, therefore, serves two important purposes for the Indian Drone Ecosystem and potentially for projects like PX4 and Ardupilot:
@@ -43,9 +45,9 @@ Aerobridge project, therefore, serves two important purposes for the Indian Dron
   
 ### Aerobridge Community
 
-The community and its engineering focus on the project provides a blueprint for the organization of drone communities in India’s neighborhood or jurisdictions where a Digital Sky like infrastructure might be of interest. We have been able to get together a group of technical engineers who understand drone operations and provide technical solutions to regulatory challenges. Communities like Aerobridge work symbiotically with the broader drone open-source community working at a different level of the ecosystem.
+The community and its engineering focus on the project provides a blueprint for the organization of drone communities in India’s neighborhood or jurisdictions where a digital security of operations might be of interest. We have been able to get together a group of technical engineers who understand drone operations and provide technical solutions to regulatory challenges. Communities like Aerobridge work symbiotically with the broader drone open-source community working at a different level of the ecosystem.
 
-The ideas that encapsulate Digital Sky: utilizing PKI to authorize and approve drone flights have some ideas that are relevant to the entire drone community beyond India. It effectively addresses the concerns that many regulators and government agencies have around security, safety and operational intent. It also provides room for a decentralized market-based approach to drone operations and promotes local manufacturing. What was missing till now is an open, world-class reference implementation and the Aerobridge project completes the ecosystem in India. There is a long way ahead and the community in India is just getting started.
+The ideas that encapsulate Aerobridge Guardian: utilizing PKI to authorize and approve drone flights have some ideas that are relevant to the entire drone community beyond India. It effectively addresses the concerns that many regulators and government agencies have around security, safety and operational intent. It also provides room for a decentralized market-based approach to drone operations and promotes local manufacturing. What was missing till now is an open, world-class reference implementation and the Aerobridge project completes the ecosystem in India. There is a long way ahead and the community in India is just getting started.
 
 ### Join Aerobridge
 
