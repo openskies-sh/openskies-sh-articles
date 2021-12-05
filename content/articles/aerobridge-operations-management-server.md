@@ -1,17 +1,17 @@
 ---
-title: "Aerobridge: Secure your drone operations"
+title: "Aerobridge Guardian: Secure your drone operations"
 date: 2020-12-11
 draft: False
 categories: ["aerobridge", "India","cyber security"]
 tags: ["Management Server","Operations"]
 ---
 
-Aerobridge is a secure operations management server that helps operators and manufacturers secure their equipment and operations using Public Key Infrastructure and commonly available identity and authentication standards.
+Aerobridge is a management server that helps operators and manufacturers secure their equipment and operations using the mature and well-tested Public Key Infrastructure and commonly available identity and authentication standards.
 <!--more-->
 
-Securing drone operation is a important consideration as drone flights scale up. Once a flight permission is issued how does a company ensure that the flight path for which the permission was granted is the one that is actually flown? How does a company that operates a drone ensure basic level of operational security? This kind of system is fairly common for private companies in IT. For e.g. once a company issues you a laptop they can specify what apps can and cannot be installed on it. In the same way, a employee who is no longer associated with the company should not be able to fly or operate company equipment
+Security of drone operations is an important consideration as drone flights scale up. Cyber security for drone operations is a crucial component of running a safe, secure operation. For small companies, ensuring operational security means large investments in software and systems. Operational security from a very practical point of view means solving some basic problems for operators. e.g. How does a company ensure that the flight path for which the permission was granted is the one that is actually flown by the pilots? If pilot has left the company, how does it ensure that they dont have access to the company's hardware and software? If a drone is marked as stolen in the company's systems, it should not be able to fly operations for the company. This kind of system is fairly common for private companies in IT. For e.g. once a company issues you a laptop they can specify what apps can and cannot be installed on it. In the same way, a employee who is no longer associated with the company should not be able to fly or operate company equipment
 
-To run a world-class drones operation, a operator needs to build a digital storage, security, auditing system and be compliant with regulations. All of this puts a heavy burden on the drone manufacturers and operators who now have to understand the workings of PKI and additionally to store and manage and share sensitive data. In the absence of digital infrastructure, these operations are time-consuming and problematic in the long term and most importantly do not scale. Therefore we have built a entire system of storage, security and identity for operators and secure their operations.
+To run a world-class drones operation, a operator needs to build a digital storage, security, auditing system and be compliant with regulations. All of this puts a heavy burden on the drone manufacturers and operators who now have to understand the workings of PKI and additionally to store and manage and share sensitive data. In the absence of accessible digital infrastructure, these operations are time-consuming and problematic in the long term and most importantly do not scale. Therefore we have built a entire system of storage, security and identity for operators and secure their operations.
 
 ### Introduction
 
