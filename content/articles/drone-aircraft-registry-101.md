@@ -1,5 +1,5 @@
 ---
-title: "Building a digital Drone + Aircraft registration sandbox / Bringing your registration data online"
+title: "Digital Drone + Aircraft registration 101 / Bringing your registration data online"
 date: 2020-08-11T13:17:48+01:00
 draft: false
 categories: [registry, identity, authentication]

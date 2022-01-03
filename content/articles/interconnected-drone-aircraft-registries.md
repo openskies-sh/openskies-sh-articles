@@ -10,7 +10,7 @@ A registry broker is a piece of software that connects and exchanges data betwee
 
 <!--more-->
 
-If you are reading this article without any background in drone / aircraft registration, we recommend you read the [Building a Drone + Aircraft Registry]({{< ref "drone-aircraft-registry-sandbox.md" >}}) article first, that article provides a good introduction and series of links to delve deeper. In this article, we will take the conversation forward and build a network of such registries. In this article you will learn:
+If you are reading this article without any background in drone / aircraft registration, we recommend you read the [Building a Drone + Aircraft Registry]({{< ref "drone-aircraft-registry-101.md" >}}) article first, that article provides a good introduction and series of links to delve deeper. In this article, we will take the conversation forward and build a network of such registries. In this article you will learn:
 
 - How to connect different drone registries?
 - How to query data in multiple registries?

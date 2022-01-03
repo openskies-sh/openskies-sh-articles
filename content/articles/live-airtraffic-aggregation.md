@@ -6,10 +6,10 @@ categories: ["air traffic", "remote id",]
 tags: ["remote id display application","flight tracking","aircraft surveillance"]
 ---
 
-There are many methods for detecting and tracking flights and drones in the air. Most airspaces will have a combination of these sensors detecting air-traffic.
+There are many methods for detecting and tracking flights and drones in the air. Most airspaces will have a combination of these sensors detecting air-traffic. In this article we will see how using relatively simple concepts, we can build a flight data aggregation dashboard.
 <!--more-->
 
-It is important to understand how to store and normalize this data. Since the sensors are tracking the same things in the sky, the reason you will need to do this aggregation and normalization is to build a "single state of things" without duplicates and ensuring that the latest observation is kept. This way the "freshest" location / tracking information can be displayed.
+Airtraffic data, including data about drones and unmanned vehicles is sensed by many sensors, old and new. Radars are used extensively to track manned flights e.g. aircrafts etc. Now-a-days, there are sensors availble to track drone flights in addition to standards on broadcast and network remote-id. We will focus on a specific issue around this data and specifically a way to normalize it in realtime. Since the sensors are tracking the same things in the sky, the reason you will need to do this aggregation and normalization is to build a "single state of things" without duplicates and ensuring that the latest observation is kept. This way the "freshest" location / tracking information can be displayed.
 
 ### Multiple sensors and data streams
 
