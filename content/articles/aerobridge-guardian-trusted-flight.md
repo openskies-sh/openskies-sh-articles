@@ -1,5 +1,5 @@
 ---
-title: "Aerobridge Guardian: Trusted flight module"
+title: "Aerobridge Guardian: Secure operations with trusted flight infrastructure"
 date: 2020-12-11
 draft: False
 categories: ["aerobridge","cyber security", "trusted flight", "identity"]
