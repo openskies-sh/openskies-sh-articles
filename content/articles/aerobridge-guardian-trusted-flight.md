@@ -1,12 +1,12 @@
 ---
-title: "Aerobridge Guardian: Secure your drone operations"
+title: "Aerobridge Guardian: Trusted flight module"
 date: 2020-12-11
 draft: False
-categories: ["aerobridge", "India","cyber security"]
-tags: ["Management Server","Operations"]
+categories: ["aerobridge","cyber security", "trusted flight", "identity"]
+tags: ["Aerobridge"]
 ---
 
-Aerobridge is a management server that helps operators and manufacturers secure their equipment and operations using the mature and well-tested Public Key Infrastructure and commonly available identity and authentication standards.
+Aerobridge Guardian is a set of software and services helps operators and manufacturers conduct trusted flight operations using the mature and well-tested Public Key Infrastructure and commonly available identity and authentication standards.
 <!--more-->
 
 Security of drone operations is an important consideration as drone flights scale up. Cyber security for drone operations is a crucial component of running a safe, secure operation. For small companies, ensuring operational security means large investments in software and systems. Operational security from a very practical point of view means solving some basic problems for operators. e.g. How does a company ensure that the flight path for which the permission was granted is the one that is actually flown by the pilots? If pilot has left the company, how does it ensure that they dont have access to the company's hardware and software? If a drone is marked as stolen in the company's systems, it should not be able to fly operations for the company. This kind of system is fairly common for private companies in IT. For e.g. once a company issues you a laptop they can specify what apps can and cannot be installed on it. In the same way, a employee who is no longer associated with the company should not be able to fly or operate company equipment
@@ -17,7 +17,7 @@ To run a world-class drones operation, a operator needs to build a digital stora
 
 Aerobridge is an open-source implementation a Management Server that addresses these key issues: it helps with data storage, integration with Identity and Authentication technologies, compatibility GCS and the Registered Flight Module e.g. ArduPilot. The project does in the open source by following commonly available and popular technologies that are used on the internet e.g. OAUTH and JSON Web Signatures and Tokens. These are also used in the current and upgoing standards in the drone ecosystem therefore this will be compatible with any upcoming regulations.
 
-### Aerobridge + Aerobridge Guardian
+### Aerobridge Server + Aerobridge Guardian
 
 ![Aerobridge Guardian](/images/aerobridge-guardian-system.png)
 
