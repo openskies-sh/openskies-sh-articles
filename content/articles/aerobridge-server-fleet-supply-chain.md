@@ -19,9 +19,17 @@ Aerobridge is an open-source implementation a Management Server that provides a 
 
 ### Supply Chain Transparency
 
-For a small company, running a world class assembly / production is hard. In the drone context, it is even harder because the components are small and relatively cheaper to procure or build. In most cases, if a part is broken or needs to be replaced the manufacturer or the operator just buys a new one and attaches it to the drone. This makes tracking of parts in the company difficult especially in day-to-day operations. In recent years, a lot of work has been done in the automotive sector around introduction of modern technologies for storing parts and ensuring external parties can authenticate owernship.
+For a small company, running a world class assembly / production is hard. In the drone context, it is even harder because the components are small and relatively cheaper to procure or build. In most cases, if a part is broken or needs to be replaced the manufacturer or the operator just buys a new one and attaches it to the drone. This makes tracking of parts in the company difficult especially in day-to-day operations. In recent years, a lot of work has been done in the automotive sector around introduction of modern technologies for storing parts and ensuring external parties can authenticate ownership.
 
-__Traceability vs Transparency__: A common distinction that needs to be made between transparency and tracking of parts. Tracking / traceability is a much more difficult problem to solve given the complications of tracking parts and spares as they move throught the custody. Transparency is simpler to achieve in a modern software context therefore we begin with Transperancy first while we tackle the harder issue of traceability later. 
+__Traceability vs Transparency__: A common distinction that needs to be made between transparency and tracking of parts. Tracking / traceability is a much more difficult problem to solve given the complications of tracking parts and spares as they move through the custody chain. Transparency is simpler to achieve in a modern software context therefore we begin with Transparency first while we tackle the harder issue of traceability later.
+
+### Components network
+
+By utilizing a public ledger technology, we hope to build a network of components that can be verified publicly and the idea is that if a company decides to install and use Aerobridge server for their operations they join the components network. As the instances of Aerobridge increase the network becomes more resilient and an eco-system is built around components and their trust.
+
+### Conclusion
+
+We hope to build a modern supply chain for drone manufacturers and assemblers where trust is baked in to the network utilizing modern de-centralized technologies. When you decide to use Aerobridge, you will automatically join the network and get access to the community. 
 
 ### Join Aerobridge
 
