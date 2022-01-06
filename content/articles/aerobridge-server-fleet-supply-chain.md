@@ -6,7 +6,7 @@ categories: ["aerobridge","supply chain", "drone manufacturing"]
 tags: ["Management Server","Operations"]
 ---
 
-Aerobridge is a advanced management server that help drone assemblers and manufacturers with tracking and documenting parts / component assemblies as they move in and out of custody. 
+Aerobridge is a advanced management server that help drone assemblers and manufacturers with tracking and documenting parts / component assemblies as they move in and out of custody.
 <!--more-->
 
 ### Introduction
