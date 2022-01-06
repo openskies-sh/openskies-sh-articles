@@ -19,7 +19,13 @@ Aerobridge is an open-source implementation a Management Server that provides a 
 
 ### Supply Chain Transparency
 
-For a small company, running a world class assembly / production is hard. In the drone context, it is even harder because the components are small and relatively cheaper to procure or build. In most cases, if a part is broken or needs to be replaced the manufacturer or the operator just buys a new one and attaches it to the drone. This makes tracking of parts in the company difficult especially in day-to-day operations. In recent years, a lot of work has been done in the automotive sector around introduction of modern technologies for storing parts and ensuring external parties can authenticate ownership.
+For a small company, running a world class assembly / production is hard. In the drone context, it is even harder because the components are small and relatively cheaper to procure or build. In most cases, if a part is broken or needs to be replaced the manufacturer or the operator just buys a new one and attaches it to the drone. This makes tracking of parts in the company difficult especially in day-to-day operations. 
+
+Consumers and regulators want to know more about the products and the sourcing of the products that they are using. This is a very difficult challenge to address and delivery a solution. In recent years, a lot of work has been done in the agriculture sector around introduction of modern technologies for storing parts and ensuring external parties can authenticate ownership and traceability. Ensuring traceability bring numerous benefits to the manufacturer / assembler of the drone:
+
+1. It builds trust in the brand
+2. It provides a way to build operational performance
+3. It provides a way to have external parties including customers to be part of the process of manufacturing
 
 __Traceability vs Transparency__: A common distinction that needs to be made between transparency and tracking of parts. Tracking / traceability is a much more difficult problem to solve given the complications of tracking parts and spares as they move through the custody chain. Transparency is simpler to achieve in a modern software context therefore we begin with Transparency first while we tackle the harder issue of traceability later.
 
