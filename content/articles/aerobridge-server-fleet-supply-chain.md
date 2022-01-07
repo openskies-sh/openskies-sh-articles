@@ -15,11 +15,11 @@ Now-a-days, building a basic drone is not that difficult or complicated. In many
 
 ### Fleet Management
 
-Aerobridge is a state-of-the art drone operations Management Server that provides a number of features to help with managing drone hardware and assembly in addition to operations. Therefore it is ideally suited for companies operating / manufacturing or assemblying drones. What makes Aerobridge interesting as a management server is that depending on the entity using it,  it can be flexibly configured: as a manufacturer, an operator of drones. Basically the idea is to maintain a list of equipment, people and companies operating the drones. A more detailed introduction to these concepts please see [Building a Drone + Aircraft Registry]({{< ref "drone-aircraft-registry-101.md" >}}) article. The management server utilizes customized versions of this registry to organize the operations around equipment, people and companies.
+Aerobridge is a state-of-the art drone operations Management Server that provides a number of features to help with managing drone hardware and assembly in addition to operations. Therefore it is ideally suited for companies operating / manufacturing or assembly of drones. What makes Aerobridge interesting as a management server is that  it can be flexibly configured depending on the entity using it: as a manufacturer, an operator of drones. The management server helps the entity to maintain a list of equipment, people and companies operating the drones and connect to a broader network of . A more detailed introduction to these concepts please see [Building a Drone + Aircraft Registry]({{< ref "drone-aircraft-registry-101.md" >}}) article. The management server utilizes customized versions of this registry to organize the operations around equipment, people and companies.
 
 ### Supply Chain Transparency
 
-For a small company, running a world class assembly / production is hard. In the drone context, it is even harder because the components are small and relatively cheaper to procure or build. In most cases, if a part is broken or needs to be replaced the manufacturer or the operator just buys a new one and attaches it to the drone. This makes tracking of parts in the company difficult especially in day-to-day operations. 
+For a small company, running a world class assembly / production is hard. In the drone context, it is even harder because the components are small and relatively cheaper to procure or build. In most cases, if a part is broken or needs to be replaced the manufacturer or the operator just buys a new one and attaches it to the drone. This makes tracking of parts in the company difficult especially in day-to-day operations.
 
 Consumers and regulators want to know more about the products and the sourcing of the products that they are using. This is a very difficult challenge to address and delivery a solution. In recent years, a lot of work has been done in the agriculture sector around introduction of modern technologies for storing parts and ensuring external parties can authenticate ownership and traceability. Ensuring traceability bring numerous benefits to the manufacturer / assembler of the drone:
 
@@ -29,13 +29,13 @@ Consumers and regulators want to know more about the products and the sourcing o
 
 __Traceability vs Transparency__: A common distinction that needs to be made between transparency and tracking of parts. Tracking / traceability is a much more difficult problem to solve given the complications of tracking parts and spares as they move through the custody chain. Transparency is simpler to achieve in a modern software context therefore we begin with Transparency first while we tackle the harder issue of traceability later.
 
-### Components network
+### Authentic components network
 
-By utilizing a public ledger technology, we hope to build a network of components that can be verified publicly and the idea is that if a company decides to install and use Aerobridge server for their operations they join the components network. As the instances of Aerobridge increase the network becomes more resilient and an eco-system is built around components and their trust.
+By utilizing a public ledger technology, we hope to build a network of components that can be verified publicly via modern tracking technologies. By building a blockchain of verified components and a system of verification of the origin, we hope to build a network of verified suppliers and components with radical transparency utilizing modern de-centralized technologies.
 
 ### Conclusion
 
-We hope to build a modern supply chain for drone manufacturers and assemblers where trust is baked in to the network utilizing modern de-centralized technologies. When you decide to use Aerobridge, you will automatically join the network and get access to the community. 
+We hope to build a modern supply chain for drone manufacturers and assemblers where trust is baked in to the network utilizing modern de-centralized technologies. When you decide to use Aerobridge, you will automatically join the network and get access to the community.
 
 ### Join Aerobridge
 
