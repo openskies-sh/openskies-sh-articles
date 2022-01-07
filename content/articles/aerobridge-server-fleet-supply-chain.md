@@ -1,7 +1,7 @@
 ---
-title: "Aerobridge Server: Fleet management and supply chain transparency"
+title: "Aerobridge Server: Building a modern supply chain for drone manufacturers and assemblers"
 date: 2021-01-07
-draft: True
+draft: false
 categories: ["aerobridge","supply chain", "drone manufacturing"]
 tags: ["Management Server","Operations"]
 ---
@@ -11,7 +11,7 @@ Aerobridge is a advanced management server that help drone assemblers and manufa
 
 ### Introduction
 
-Now-a-days, building a basic drone is not that difficult or complicated. In many cases the components are readily available to manufacturers and operators. This ease of assembly brings about a new set of challenges around managing assembly and parts that can be easily substituted and manufactured. In this article we document how you can leverage modern technology to build a transparent supply chain and make management of drone parts easier.
+Now-a-days, building a basic drone is not that difficult or complicated. In many cases, the components are readily available to manufacturers and operators and sites like YouTube are full of videos of how to assemble drones using basic components. While this is great and desirable, this ease of assembly brings about a new set of challenges around managing assembly and parts that can be easily substituted and manufactured. In this article we document how you can leverage modern technology to build a transparent supply chain and make management of drone parts easier.
 
 ### Fleet Management
 
@@ -31,7 +31,7 @@ __Traceability vs Transparency__: A common distinction that needs to be made bet
 
 ### Authentic components network
 
-By utilizing a public ledger technology, we hope to build a network of components that can be verified publicly via modern tracking technologies. By building a blockchain of verified components and a system of verification of the origin, we hope to build a network of verified suppliers and components with radical transparency utilizing modern de-centralized technologies.
+By utilizing a public ledger technology, we hope to build a network of components that can be verified publicly via modern tracking technologies. By building a blockchain of verified components and a system of verification of the origin, we hope to build a network of verified suppliers and components with radical transparency utilizing modern de-centralized technologies. 
 
 ### Conclusion
 
