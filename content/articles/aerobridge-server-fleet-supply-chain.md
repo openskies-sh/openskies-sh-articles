@@ -39,4 +39,4 @@ We hope to build a modern supply chain for drone manufacturers and assemblers wh
 
 ### Join Aerobridge
 
-You can join the community by filling out the form on [www.aerobridge.in](https://www.aerobridge.in)
+You can join the community by filling out the form on [www.aerobridge.io](https://www.aerobridge.io)

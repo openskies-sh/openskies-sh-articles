@@ -51,7 +51,7 @@ The ideas that encapsulate Aerobridge Guardian: utilizing PKI to authorize and a
 
 ### Join Aerobridge
 
-You can join the community by filling out the form on [www.aerobridge.in](https://www.aerobridge.in)
+You can join the community by filling out the form on [www.aerobridge.io](https://www.aerobridge.io)
 
 ### Authors
 
