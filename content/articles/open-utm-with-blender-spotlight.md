@@ -16,6 +16,7 @@ The "Open-UTM" stack provided by Openskies implement published and developing in
 
 ### Permissioning and User roles
 To access this system, you will need to get an account in the system. You will need to contact your administrators to get an account. Normally you cannot sign up for an account by yourself but will have to be nominated by your administrators. There are broadly three types of access to this system, in many cases there are additional special roles that are: 
+
 - **Authority**: A person who is a part of Civil Aviation Authority, Police, Military, Air Navigation Service Provider etc. As you would expect these users will have additional authorization features for the system. 
 - **Operator**: A person who is associated with the flight operations and can share flight plans and logs etc. 
 - **Public**: A person who is neither an Authority or Operator but has a general interest in the airspace. 
