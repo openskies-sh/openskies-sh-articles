@@ -24,11 +24,11 @@ To access this system, you will need to get an account in the system. You will n
 ## Flight Spotlight
 Flight Spotlight is the front-end to this system. Flight Spotlight has mainly three things: 
 
-- Live Flights: This is a display to see live flights in an area, when configured, live manned air-traffic and / or ASTM compared Network Remote-ID etc. can be provided. Here you can also see geo-fences etc. 
+1. Live Flights: This is a display to see live flights in an area, when configured, live manned air-traffic and / or ASTM compared Network Remote-ID etc. can be provided. Here you can also see geo-fences etc. 
 
-- Launchpad: Using this form operators can submit flight declarations as GeoJSON into the system. In the background, this is compatible with ASTM standards on USS <-> USS interoperability standards. The GeoJSON once submitted is stored as an ASTM operational intent (Volume4D etc.) and the raw GeoJSON as well. This data is submitted to the Blender backend securely. 
+2. Launchpad: Using this form operators can submit flight declarations as GeoJSON into the system. In the background, this is compatible with ASTM standards on USS <-> USS interoperability standards. The GeoJSON once submitted is stored as an ASTM operational intent (Volume4D etc.) and the raw GeoJSON as well. This data is submitted to the Blender backend securely. 
 
-- Noticeboard: Fight Declarations submitted via the Launchpad interface is seen here, operations can be seen on a table and / or on a map. If you have the appropriate privileges you can authorize operations. At the moment, there is no deconfliction or any other support but these can be added in the future. 
+3. Noticeboard: Fight Declarations submitted via the Launchpad interface is seen here, operations can be seen on a table and / or on a map. If you have the appropriate privileges you can authorize operations. At the moment, there is no deconfliction or any other support but these can be added in the future. 
 
 You can see some screenshots and photos
 
