@@ -30,7 +30,7 @@ Flight Spotlight is the front-end to this system. Flight Spotlight has mainly th
 
 3. Noticeboard: Fight Declarations submitted via the Launchpad interface is seen here, operations can be seen on a table and / or on a map. If you have the appropriate privileges you can authorize operations. At the moment, there is no deconfliction or any other support but these can be added in the future. 
 
-You can see some screenshots and photos
+You can see some screenshots and photos, you can navigate [this directory](https://github.com/openskies-sh/flight-spotlight/tree/master/images/screenshots) on Github.
 
 ### Flight Blender
 Flight Blender is the backend data storage and processing engine for this system. Flight Spotlight communicates with Blender via an <a href="http://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/openskies-sh/flight-blender/master/api/flight-blender-1.0.0-resolved.yaml">elaborate API</a> and in most cases you do will not have to interact with this part. You can check the Blender Connectivity with Spotlight from within Spotlight. 
