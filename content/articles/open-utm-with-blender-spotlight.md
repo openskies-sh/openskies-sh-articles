@@ -21,7 +21,7 @@ To access this system, you will need to get an account in the system. You will n
 2. **Operator**: A person who is associated with the flight operations and can share flight plans and logs etc. 
 3. **Public**: A person who is neither an Authority or Operator but has a general interest in the airspace. 
 
-## Flight Spotlight
+### Flight Spotlight
 Flight Spotlight is the front-end to this system. Flight Spotlight has mainly three things: 
 
 1. Live Flights: This is a display to see live flights in an area, when configured, live manned air-traffic and / or ASTM compared Network Remote-ID etc. can be provided. Here you can also see geo-fences etc. 
@@ -32,7 +32,7 @@ Flight Spotlight is the front-end to this system. Flight Spotlight has mainly th
 
 You can see some screenshots and photos
 
-## Flight Blender
+### Flight Blender
 Flight Blender is the backend data storage and processing engine for this system. Flight Spotlight communicates with Blender via an <a href="http://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/openskies-sh/flight-blender/master/api/flight-blender-1.0.0-resolved.yaml">elaborate API</a> and in most cases you do will not have to interact with this part. You can check the Blender Connectivity with Spotlight from within Spotlight. 
 
 ## Support and Contact 
