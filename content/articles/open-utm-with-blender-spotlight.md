@@ -22,7 +22,7 @@ To access this system, you will need to get an account in the system. You will n
 3. **Public**: A person who is neither an Authority or Operator but has a general interest in the airspace. 
 
 ### Flight Spotlight
-Flight Spotlight is the front-end to this system. Flight Spotlight has mainly three things: 
+Flight Spotlight is the front-end to this system. Flight Spotlight has mainly three entities: 
 
 1. Live Flights: This is a display to see live flights in an area, when configured, live manned air-traffic and / or ASTM compared Network Remote-ID etc. can be provided. Here you can also see geo-fences etc. 
 
