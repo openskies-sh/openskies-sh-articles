@@ -14,6 +14,8 @@ The "Open-UTM" stack provided by Openskies implement published and developing in
 
 ![Open UTM roadmap](/images/open-utm.roadmap.png)
 
+The roadmap provides for a phased approach to ramp up UTM capabilities eventually participating a federated UTM network where multiple providers can inter-operate in a standards compliant software. This system is therefore compliant with the ASTM standards and the [InterUSS](https://interuss.org) software. 
+
 ### Permissioning and User roles
 To access this system, you will need to get an account in the system. You will need to contact your administrators to get an account. Normally you cannot sign up for an account by yourself but will have to be nominated by your administrators. There are broadly three types of access to this system, in many cases there are additional special roles that are: 
 
