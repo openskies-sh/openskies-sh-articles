@@ -31,7 +31,7 @@ __Traceability vs Transparency__: A common distinction that needs to be made bet
 
 |![Authentic Component Network](/images/supply_chain/component_history.png)|
 |:--:|
-<b>Figure 1: Aircraft Component History in Aerobridge</b>|
+|<b>Figure 1: Aircraft Component History in Aerobridge</b>|
 
 ### Authentic components network
 
@@ -44,7 +44,7 @@ By enabling a datastructures for verified components and a system of verificatio
 
 |![Authentic Component Network](/images/supply_chain/authentic_component_network.png)|
 |:--:|
-<b>Figure 3: Verify Component for authenticity</b>|
+|<b>Figure 3: Verify Component for authenticity</b>|
 
 ### Conclusion
 
