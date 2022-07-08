@@ -29,16 +29,22 @@ Consumers and regulators want to know more about the products and the sourcing o
 
 __Traceability vs Transparency__: A common distinction that needs to be made between transparency and tracking of parts. Tracking / traceability is a much more difficult problem to solve given the complications of tracking parts and spares as they move through the custody chain. Transparency is simpler to achieve in a modern software context therefore we begin with Transparency first while we tackle the harder issue of traceability later.
 
-![Authentic Component Network](/images/supply_chain/component_history.png)
+|![Authentic Component Network](/images/supply_chain/component_history.png)|
+|:--:|
+<b>Figure 1: Aircraft Component History in Aerobridge</b>|
 
 ### Authentic components network
 
 By utilizing a public ledger technology, we hope to build a network of components that can be verified publicly via modern tracking technologies. 
-![Supplier Proucrement](/images/supply_chain/procurement_origin.png)
+|![Supplier Proucrement](/images/supply_chain/procurement_origin.jpg)|
+|:--:|
+<b>Figure 1: Where was the component procured from?</b>|
 
 By enabling a datastructures for verified components and a system of verification of the origin, we are budiling a network of verified suppliers and components with radical transparency utilizing modern technologies. 
 
-![Authentic Component Network](/images/supply_chain/authentic_component_network.png)
+|![Authentic Component Network](/images/supply_chain/authentic_component_network.png)|
+|:--:|
+<b>Figure 3: Verify Component for authenticity</b>|
 
 ### Conclusion
 
