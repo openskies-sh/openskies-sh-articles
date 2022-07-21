@@ -419,6 +419,9 @@ ul {
     margin-left: 5px;
 }
 
+.footer h3 {
+    font-family: "Suranna", sans-serif;
+}
 .footer {
     text-align: right;
     font-size: 0.8em;
