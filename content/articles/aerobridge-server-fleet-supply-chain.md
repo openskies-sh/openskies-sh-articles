@@ -36,9 +36,10 @@ __Traceability vs Transparency__: A common distinction that needs to be made bet
 ### Authentic components network
 
 By utilizing a public ledger technology, we hope to build a network of components that can be verified publicly via modern tracking technologies. 
+
 |![Supplier Proucrement](/images/supply_chain/procurement_origin.jpg)|
 |:--:|
-|<b>Figure 1: Where was the component procured from?</b>|
+|<b>Figure 2: Where was the component procured from?</b>|
 
 By enabling a datastructures for verified components and a system of verification of the origin, we are budiling a network of verified suppliers and components with radical transparency utilizing modern technologies. 
 
