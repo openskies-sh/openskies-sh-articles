@@ -40,7 +40,7 @@ You can see some screenshots and photos, you can navigate [this directory](https
 ## Support and Contact 
 If you want to get in touch or have queries regarding the software and how you can deploy it in your company, please reach out to your administrators / local contact or contact via the form at [Openskies website](https://about.openskies.sh/#contact), it may take one or two days to get back to you.
 
-## Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ) {#faq}
 A list of frequently asked questions are below, these are updated from time to time. 
 
 **Q: I use this system on the phone, are there apps that I can install to draw a GeoJSON (and declare my flights)?**
