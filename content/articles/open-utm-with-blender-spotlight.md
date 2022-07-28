@@ -39,3 +39,20 @@ You can see some screenshots and photos, you can navigate [this directory](https
 
 ## Support and Contact 
 If you want to get in touch or have queries regarding the software and how you can deploy it in your company, please reach out to your administrators / local contact or contact via the form at [Openskies website](https://about.openskies.sh/#contact), it may take one or two days to get back to you.
+
+## Frequently Asked Questions (FAQ)
+A list of frequently asked questions are below, these are updated from time to time. 
+
+**Q: I use this system on the phone, are there apps that I can install to draw a GeoJSON (and declare my flights)?**
+
+A: The Open-UTM system works as expected on a phone / mobile device. The website should open and launch just as you would on a desktop. Flight plans are entered as GeoJSON and there are free and paid apps that are available to help you draw GeoJSON on a mobile device. You can draw your flight path with using these apps. Both have a "Export" function that is free which will allow you to save the file as GeoJSON. The 
+
+__iOS__
+
+- [Maps To-Do](https://apps.apple.com/ie/app/maps-to-do/id1553502403)
+- [QPad Geo Collector](https://apps.apple.com/ie/app/qpad-geo-collector/id1533262307)
+
+__Android__
+- TBC
+
+Know of an app that can be added to the list? Tell your administrators or us via our [support form](https://about.openskies.sh/#contact)
