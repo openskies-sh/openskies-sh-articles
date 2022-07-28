@@ -45,7 +45,7 @@ A list of frequently asked questions are below, these are updated from time to t
 
 **Q: I use this system on the phone, are there apps that I can install to draw a GeoJSON (and declare my flights)?**
 
-A: The Open-UTM system works as expected on a phone / mobile device. The website should open and launch just as you would on a desktop. Flight plans are entered as GeoJSON and there are free and paid apps that are available to help you draw GeoJSON on a mobile device. You can draw your flight path with using these apps. Both have a "Export" function that is free which will allow you to save the file as GeoJSON. The 
+A: The Open-UTM system works as expected on a phone / mobile device. The website should open and launch just as you would on a desktop. Flight plans are entered as GeoJSON and there some apps that are available to help you draw GeoJSON on a mobile device, some examples are provided below. Once installed, you can draw your flight path with using these apps. Both have an "Export" function that is free which will allow you to save the file as GeoJSON on your device. Once the file is saved, then you can copy-paste it in Flight Spotlight.
 
 __iOS__
 
