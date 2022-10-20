@@ -1,4 +1,4 @@
-baseURL = "https://www.openskies.sh/"
+baseURL = "https://blog.openskies.sh/"
 languageCode = "en-us"
 title = "{open}skies.sh"
 theme = "hugo-ink"
@@ -72,9 +72,9 @@ weight = 3
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 [[params.social]]
-name = "About"
+name = "Home"
 icon = "globe"
-url = "https://about.openskies.sh"
+url = "https://www.openskies.sh"
 
 
 [[params.social]]
