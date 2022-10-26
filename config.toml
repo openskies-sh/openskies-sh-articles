@@ -63,6 +63,11 @@ name = "Categories"
 url = "/categories"
 weight = 2
 
+[[menu.main]]
+name = "About Openskies"
+url = "https://www.openskies.sh"
+weight = 3
+
 
 
 # Social media links which shows up on site header.
