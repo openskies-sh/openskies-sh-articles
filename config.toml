@@ -1,4 +1,4 @@
-baseURL = "https://blog.openskies.sh/"
+baseURL = "https://www.openskies.sh/"
 languageCode = "en-us"
 title = "{open}skies.sh"
 theme = "hugo-ink"
