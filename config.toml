@@ -63,7 +63,6 @@ name = "Categories"
 url = "/categories"
 weight = 2
 
-
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 [[params.social]]
