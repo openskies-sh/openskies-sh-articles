@@ -35,14 +35,14 @@ Follow the following steps update the component assembly. This is essentially a 
 2. Step 2. Acknowledge custody
     - Go to ```Manufacturing -> Assemblies```
     - Select the impacted aircraft assembly, normally this should have a "*Parts need review*" status
-    - Your component family should be avaialble on the left, click on the ```+ Acknowledge Receipt of new one" button 
+    - Your component family should be avaialble on the left, click on the ```+ Acknowledge custody of new one``` button 
     - Select the appropriate Invoice Receipt and give it a Assembly code, a friendly name
 3. Step 3. Update Assembly
     - Assuming that you have replaced the part on the vehicle, it is now time to update the assembly on the management server
     - Go to ```Manufacturing -> Assemblies```
     - Select the impacted aircraft assembly, normally this should have a "*Parts need review*" status
     - On the right hand side, you should see the missing compoents and additionally it should show the "number of comonents available" to be added to the assembly. 
-    - Click on "Add to Assembly"
+    - Click on "Add to Assembly" to be added to the assembly
 
 The assembly status should now be complete
 
