@@ -86,3 +86,4 @@ url = "https://github.com/openskies-sh"
 # Enable tags.
 [taxonomies]
    category = "categories"
+   tags = "tags"
