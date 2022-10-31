@@ -1,19 +1,36 @@
 ---
 title: "Aerobridge.io: How to report an incident?"
-date: 2020-12-11
-draft: True
+date: 2022-10-29
+draft: False
 categories: ["aerobridge","documentation"]
-tags: ["Aerobridge", "howto"]
+tags: ["aerobridge-howto"]
 ---
 
-In this article you will 
-
-Applies to: Aerobridge Lite
+In this article you will how to report and incident during operation and associate a part in the the assembly with the incident. 
+**Applies to: Aerobridge Lite Plan**, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/)
 <!--more-->
-## The problem 
+### The problem 
+During flight operations sometimes there are incidents that lead to minor or major damage to the vehicle. These are normally need to be recorded and Aerobridge provides the digital infrastructure linking the incident to specific parts in the drone assembly. 
 
-## What you need? 
+### What you need? 
+For this step, you will need:
+- an account in the Lite plan in Aerobridge with your fleet details
+- a photo / image of the damaged drone taken on your phone or available on your device
 
-## Report an incident
+### Report an incident
+Follow the following steps to report an incident. This is essentially a two-step process where you upload the photo first and then create a incident associating the photo to the incident: 
 
-# 
+1. Step 1. Upload your photo
+    - Go to ```Data locker -> Files Manager```
+    - Click on ```+ Add a file```
+    - Upload tour photo and select ```File type``` as ```Photo``` in the dropdown
+2. Step 2. Report an incident
+    - Go to ```Trusted Flights -> Aircraft```
+    - Select the impacted aircraft and click on ```+ Report an Incident```
+    - Select one ```Impacted Components```, add ```Notes``` describing briefly and precisely details about the incident. For incidents with multiple compoents that are impacted 
+    - Set the ```New status``` of the component. 
+    - You can also see a incident calendar
+
+### Video Demonstration
+{{< youtube cjwjqq9SBAI >}}
+
