@@ -6,11 +6,12 @@ categories: ["aerobridge","documentation"]
 tags: ["aerobridge-howto"]
 ---
 
-In this article you will how to report and incident during operation and associate a part in the the assembly with the incident. 
-**Applies to: Aerobridge Lite Plan**, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/) to get an account.
+In this article you will how to report and incident during operation and associate a part in the the assembly with the incident. To get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/) to get an account.
 <!--more-->
 ### The problem 
 During flight operations sometimes there are incidents that lead to minor or major damage to the vehicle. These are normally need to be recorded and Aerobridge provides the digital infrastructure linking the incident to specific parts in the drone assembly. 
+### Applies to 
+**Aerobridge Lite Plan**
 
 ### What you need? 
 For this step, you will need:
