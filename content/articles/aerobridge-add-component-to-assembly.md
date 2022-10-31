@@ -1,5 +1,5 @@
 ---
-title: "Aerobridge.io Documentation: How to add a new component to Assembly?"
+title: "Aerobridge.io: How to add a new component to Assembly?"
 date: 2022-10-31
 draft: False
 categories: ["aerobridge","documentation"]
