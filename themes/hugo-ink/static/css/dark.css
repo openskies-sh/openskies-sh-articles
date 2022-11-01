@@ -19,6 +19,10 @@ html.dark hr {
   border-color: #333;
 }
 
+html.dark code {
+  color: #333;
+}
+
 html.dark blockquote {
   border-color: #ddd;
 }
