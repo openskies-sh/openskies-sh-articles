@@ -36,7 +36,7 @@ Follow the steps below to report an incident in the Aerobridge Management Server
 Your incident will be added to the management server and can also see a incident calendar.
 
 ### Good to know
-If multiple components are impacted in an incident, then additional incidents must be created, one incident report must be created per component
+If multiple components are impacted in an incident, then multiple incident report must be created, in Aerobridge one incident report is linked to one component.
 
 
 ### Video Demonstration
