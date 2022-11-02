@@ -6,35 +6,38 @@ categories: ["aerobridge","documentation"]
 tags: ["aerobridge-howto"]
 ---
 
-In this article you will learn how to report and incident during operation and associate a part in the the assembly with the incident. To perform these actions, you will need a account in Aerobridge, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/).
+In this article you will learn how to report and incident during flight operations via [Aerobridge](https://aerobridge.io). Incidents reporting must have a photo and also be linked to a part in the the assembly. To perform these actions, you will need a account in Aerobridge, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/).
 <!--more-->
 ### The problem 
-During flight operations sometimes there are incidents that lead to minor or major damage to the vehicle. These are normally need to be recorded and Aerobridge provides the digital infrastructure linking the incident to specific parts in the drone assembly. 
+During flight operations sometimes there are incidents that lead to minor or major damage to components in the vehicle assembly. These are normally recorded in a Excel or notebooks. Aerobridge provides the digital infrastructure to report incidents to specific parts that can help the operator maintain world-class incident management system.
 
 ### Applies to 
 **Aerobridge Lite Plan** and above
 
-### What you need? 
-For this step, you will need:
+### What do you need? 
+To create a new incident in Aerobridge, you will need:
 
-- an account with the Lite plan in Aerobridge with your fleet details
+- an account with the Lite plan in Aerobridge with your fleet and assembly details
 - a photo / image of the damaged drone taken on your phone or available on your device
 
 ### Report an incident
-Follow the following steps to report an incident. This is essentially a two-step process where you upload the photo first and then create a incident associating the photo to the incident: 
+Follow the steps below to report an incident in the Aerobridge Management Server. This is essentially a two-step process where you upload a photo first and then create a incident associating the photo to a component: 
 
 1. Step 1. Upload your photo
     - Go to ```Data locker -> Files Manager```
     - Click on ```+ Add a file```
-    - Upload tour photo and select ```File type``` as ```Photo``` in the dropdown
+    - Upload tour photo and select ```File type``` as ```Photo``` in the dropdown list
 2. Step 2. Report an incident
     - Go to ```Trusted Flights -> Aircraft```
     - Select the impacted aircraft and click on ```+ Report an Incident```
-    - Select one ```Impacted Components```, add ```Notes``` describing briefly and precisely details about the incident. For incidents with multiple compoents that are impacted:
-    
-    - Set the ```New status``` of the component. 
+    - Select one of the ```Impacted Components```, add ```Notes``` describing briefly and precisely details about the incident.     
+    - Set the ```New status``` of the component, usually it is Damaged or Needs Attention. 
 
 Your incident will be added to the management server and can also see a incident calendar.
+
+### Good to know
+If multiple components are impacted in an incident, then additional incidents must be created, one incident report must be created per component
+
 
 ### Video Demonstration
 {{< youtube cjwjqq9SBAI >}}
