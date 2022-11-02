@@ -33,7 +33,8 @@ Follow the steps below to report an incident in the Aerobridge Management Server
     - Select one of the ```Impacted Components```, add ```Notes``` describing briefly and precisely details about the incident.     
     - Set the ```New status``` of the component, usually it is Damaged or Needs Attention. 
 
-Your incident will be added to the management server and can also see a incident calendar.
+### Result
+Your incident will be added to the management server, the component will be removed from the Assembly automatically as well. The assembly status will be set to ```Parts need review```
 
 ### Good to know
 If multiple components are impacted in an incident, then multiple incident report must be created, in Aerobridge one incident report is linked to one component.
