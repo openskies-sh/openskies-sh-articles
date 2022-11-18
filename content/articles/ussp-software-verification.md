@@ -16,7 +16,7 @@ The [OpenUTM](https://utm.openskies.sh) stack is meant for organizations intendi
 - For **UTM Program managers** in Government organizations / authorities who want to participate in, verify and understand standards compatible UTM operations of outside companies
 - For **software developers** within organizations who want to test and verify data interoperability and standards complaince of their internal systems.
 
-To get a more detailed introduction to the UTM stack, see the related {{< relref "open-utm-with-blender-spotlight.md" >}} article.
+To get a more detailed introduction to the UTM stack, see the [related article]({{< relref "open-utm-with-blender-spotlight.md" >}}).
 
 ## Background
 In the EU, starting in January 2023, there is a new law regarding drones and flying drones e.g. BVLOS in the EU. The Commission Implementing Regulation (EU) [2021/664](https://www.easa.europa.eu/en/regulations/U-space) of 22 April 2021 introduces a regulatory framework for "U-space". What it means is that member states (MS) will have to allocate new air-space structures as "U-Space" to enable drone flights within this air-space. In addition, to ensure safety of operations and safe integration, some UTM software services will have to be provided by companies to operate safely in the air-space. In addition to enabling safe integration of drones, this regulation introduces a number of requirements for Member States around certification of different entities. 
@@ -37,7 +37,7 @@ The Member States will be responsible for designating the geographical zones whe
 - Weather Information (optional)
 - Conformance Monitoring (optional)
 
-Since these are mainly software services, verficiation of a company's internal systems against the published standards is a software problem and can be automated via the automated testing framework.
+Since these are mainly software services, verficiation of a company's internal systems against the published standards is a software problem and can be automated via the automated testing framework. In addtion, since some of these standards cover data exchange and interoperability between different systems, you can use it to test your systems against a production  deployment.
 
 ### Self-certification of USSPs
 As a pre-requisite to formal certification, some Member States might require the USSPs to verify and demonstrate software compliance to the technical standards prior to engaging with the Authorities for certification. This is the first step in "self-certification" by the USSP. The "self-certification" will be undertaken by a verification process that can be developed by the USSP and demonstrate software complaince with the standards. 
