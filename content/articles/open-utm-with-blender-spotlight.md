@@ -64,4 +64,4 @@ __iOS__
 __Android__
 - TBC
 
-Know of an app that can be added to the list? Tell your administrators or us via our [support form](https://about.openskies.sh/#contact)
+Know of an app that can be added to the list? Tell your administrators or us via our [support form](https://www.openskies.sh/#contact)
