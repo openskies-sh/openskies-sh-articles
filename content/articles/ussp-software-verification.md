@@ -1,5 +1,5 @@
 ---
-title: "UTM Service Provider (USSP) Software verification"
+title: "UTM Service Provider Software verification"
 date: 2022-10-20
 draft: False
 categories: ["open utm", "software verification","certification"]
@@ -43,7 +43,7 @@ Since these are mainly software services, verficiation of a company's internal s
 As a pre-requisite to formal certification, some Member States might require the USSPs to verify and demonstrate software compliance to the technical standards prior to engaging with the Authorities for certification. This is the first step in "self-certification" by the USSP. The "self-certification" will be undertaken by a verification process that can be developed by the USSP and demonstrate software complaince with the standards. 
 
 ### Opensource Software Verification toolkit
-There have been efforts to develop this software verification framework via larger projects such as [InterUSS](https://interuss.org). USSPs instead of developing / inventing a new self-verification process can adopt a already developed verification process that is fully open-source. In addition, USSPs can utilize fully-opensource tools to "adopt and extend" and develop verification processes for their circumstances. 
+There have been efforts to develop this software verification framework via [InterUSS](https://interuss.org) in the open-source. The InterUSS verification toolkit offers a opensource and peer reviewed way to get UTM systems verified. USSPs, instead of developing / inventing a new self-verification process can adopt a already developed verification process that is fully open-source. In addition, USSPs can utilize fully-opensource tools to "adopt and extend" and develop verification processes for their circumstances. 
 
 ### Verification by third party
 In many cases, in addition to the self-certification, third party verification might be required to ensure ongoing compliance. Openskies via the OpenUTM stack can help your Company with it. As experts in building UTM systems that pass the InterUSS based verification tests, we can help you with compliance and additionally standing UTM services within your company. 
