@@ -6,7 +6,7 @@ categories: ["open utm", "remote id","flight authorization", "air traffic"]
 tags: ["utm", "remote id service provider","flight tracking","aircraft surveillance","interuss"]
 ---
 
-Openskies provides foundational elements of a federated UTM service and also a roadmap for jurisdictions to graudally enable additional services and service providers in a international standards compatible fashion.
+Openskies provides foundational elements of a federated un-manned traffic management (UTM) services and also a roadmap for jurisdictions to graudally enable additional services and service providers in a international standards compatible fashion.
 <!--more-->
 ## Who is OpenUTM for? 
 The OpenUTM stack is meant for organizations intending to stand up standards-compatible UTM capability, specifically: 
@@ -15,9 +15,9 @@ The OpenUTM stack is meant for organizations intending to stand up standards-com
 - For **Drone project managers** in local authorities and entities who want to see / visualize drone flying over their properties, buildings and jurisdictions.
 
 ## Background
-The "[Open-UTM](https://utm.openskies.sh)" stack provided is by Openskies via two products: [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system.
+The "[Open-UTM](https://utm.openskies.sh)" stack provided is by Openskies via two products: [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system. Broadly, it follows the NASA UTM Architecture that allows for standards complianct federated UTM system.
 
-![NASA UTM framework](/images/open-utm/NASA-UTM-architecture.png)
+![NASA UTM framework](/images/open-utm/NASA-UTM-architecture.jpg)
 
  The best part of this stack is that these are plug and play components that can be deployed together or independently as you see fit for the use case. UTM is a complex piece of software capability and it is recommended that UTM services be gradually developed and integrated. A roadmap for the gradual deployment of this capacity for a private company or a jurisdiction is detailed below. 
 
