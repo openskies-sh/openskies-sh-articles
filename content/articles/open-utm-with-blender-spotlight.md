@@ -6,13 +6,22 @@ categories: ["open utm", "remote id","flight authorization", "air traffic"]
 tags: ["utm", "remote id service provider","flight tracking","aircraft surveillance","interuss"]
 ---
 
-Openskies provides foundational elements of a federated UTM services and also a roadmap for jurisdictions to graudally enable additional services and service providers in a international standards compatible fashion.
+Openskies provides foundational elements of a federated UTM service and also a roadmap for jurisdictions to graudally enable additional services and service providers in a international standards compatible fashion.
 <!--more-->
+## Who is OpenUTM for? 
+The OpenUTM stack is meant for organizations intending to stand up standards-compatible UTM capability, specifically: 
+- For **UTM Project managers** / **Drone project leads** in a private companies in drone service providers, who are interested in deployming UTM services for their operations. 
+- For **UTM Program managers** in Government organizations / authorities who want to participate in, verify and understand standards compatible UTM operations 
+- For **Drone project managers** in local authorities and entities who want to see / visualize drone flying over their properties, buildings and jurisdictions.
 
-## Introduction
-The "Open-UTM" stack provided is by Openskies via products such as [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system. The best part of this stack is that these are plug and play components that can be deployed together or independently as you see fit for the use case. UTM is a complex piece of software and it is recommended that UTM capability be gradually developed and integrated. A roadmap for the gradual deployment of this capacity for a private company or a national authority is detailed below. 
+## Background
+The "[Open-UTM](https://utm.openskies.sh)" stack provided is by Openskies via two products: [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system.
 
-![Open UTM roadmap](/images/open-utm.roadmap.png)
+![NASA UTM framework](/images/open-utm/NASA-UTM-architecture.png)
+
+ The best part of this stack is that these are plug and play components that can be deployed together or independently as you see fit for the use case. UTM is a complex piece of software capability and it is recommended that UTM services be gradually developed and integrated. A roadmap for the gradual deployment of this capacity for a private company or a jurisdiction is detailed below. 
+
+![Open UTM roadmap](/images/open-utm/open-utm.roadmap.png)
 
 The roadmap provides for a phased approach to ramp up UTM capabilities eventually participating a federated UTM network where multiple providers can inter-operate in a standards compliant software. This system is therefore compliant with the ASTM standards and the [InterUSS](https://interuss.org) software. 
 
