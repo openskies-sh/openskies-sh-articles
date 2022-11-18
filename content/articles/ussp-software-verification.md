@@ -6,17 +6,9 @@ categories: ["open utm", "software verification","certification"]
 tags: ["utm", "utmsp","ussp", "ussp certification"]
 ---
 
-In this article, we will discuss the automated verification of software systems that claim to be conforming to published UTM standards. Specifically, we will see how the  opensource automated verification toolset can help your certification and verification efforts. TLDR; For practical way to get started, take a look at the [course](https://ussp-verification.openskies.sh) that provides a hands on technical introduction. You can contact us to get started with compliance and verification support via the [OpenUTM](https://utm.openskies.sh) stack.
+In this article, we will discuss tools for automated verification of software systems that claim to be conforming to published UTM standards. Specifically, we will see how the  opensource automated verification toolset can help your software certification efforts. TLDR; For practical way to get started, take a look at the [course](https://ussp-verification.openskies.sh) that provides a hands on technical introduction. You can contact us to get started with compliance and verification support via the [OpenUTM](https://utm.openskies.sh) stack.
 
 <!--more-->
-
-### OpenUTM Stack
-The [OpenUTM](https://utm.openskies.sh) stack is meant for organizations intending to stand up standards-compatible UTM capability, specifically it is for: 
-
-- For **UTM Program managers** in Government organizations / authorities who want to participate in, verify and understand standards compatible UTM operations of outside companies
-- For **software developers** within organizations who want to test and verify data interoperability and standards complaince of their internal systems.
-
-To get a more detailed introduction to the UTM stack, see the [related article]({{< relref "open-utm-with-blender-spotlight.md" >}}).
 
 ## Background
 In the EU, starting in January 2023, there is a new law regarding drones and flying drones e.g. BVLOS in the EU. The Commission Implementing Regulation (EU) [2021/664](https://www.easa.europa.eu/en/regulations/U-space) of 22 April 2021 introduces a regulatory framework for "U-space". What it means is that member states (MS) will have to allocate new air-space structures as "U-Space" to enable drone flights within this air-space. In addition, to ensure safety of operations and safe integration, some UTM software services will have to be provided by companies to operate safely in the air-space. In addition to enabling safe integration of drones, this regulation introduces a number of requirements for Member States around certification of different entities. 
@@ -44,6 +36,14 @@ As a pre-requisite to formal certification, some Member States might require the
 
 ### Opensource Software Verification toolkit
 There have been efforts to develop this software verification framework via [InterUSS](https://interuss.org) in the open-source. The InterUSS verification toolkit offers a opensource and peer reviewed way to get UTM systems verified. USSPs, instead of developing / inventing a new self-verification process can adopt a already developed verification process that is fully open-source. In addition, USSPs can utilize fully-opensource tools to "adopt and extend" and develop verification processes for their circumstances. 
+
+### OpenUTM Stack
+The [OpenUTM](https://utm.openskies.sh) stack is meant for organizations intending to stand up standards-compatible UTM capability, specifically it is for: 
+
+- For **UTM Program managers** in Government organizations / authorities who want to participate in, verify and understand standards compatible UTM operations of outside companies
+- For **software developers** within organizations who want to test and verify data interoperability and standards complaince of their internal systems.
+
+To get a more detailed introduction to the UTM stack, see the [related article]({{< relref "open-utm-with-blender-spotlight.md" >}}).
 
 ### Verification by third party
 In many cases, in addition to the self-certification, third party verification might be required to ensure ongoing compliance. Openskies via the OpenUTM stack can help your Company with it. As experts in building UTM systems that pass the InterUSS based verification tests, we can help you with compliance and additionally standing UTM services within your company. 
