@@ -22,7 +22,7 @@ Once an incident has been reported, the management server removes the component 
 For this step, you will need:
 
 - an account with the Lite plan in Aerobridge with your fleet details
-- an incident report created with the impacted component
+- an {{< relref "aerobridge-report-incident.md" >}} incident report created with the impacted component
 - a photo / image of the receipt from the purchase of the replacement component
 
 ### Report an incident
