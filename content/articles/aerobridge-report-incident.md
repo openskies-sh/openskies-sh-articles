@@ -6,7 +6,7 @@ categories: ["aerobridge","documentation"]
 tags: ["aerobridge-howto"]
 ---
 
-In this article you will learn how to report an incident during flight operations via [Aerobridge](https://aerobridge.io). Incidents reporting must have a photo and also be linked to a part in the the assembly. To perform these actions, you will need a account in Aerobridge, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/).
+In this article you will learn how to report an incident during flight operations via Aerobridge. Incidents reporting must have a photo and also be linked to a part in the the assembly. To perform these actions, you will need a account in [Aerobridge](https://aerobridge.io) Management Server, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/).
 <!--more-->
 ### The problem 
 During flight operations sometimes there are incidents that lead to minor or major damage to components in the vehicle assembly. These are normally recorded in a system like Excel or notebooks that are maintained by the Drone Operator or Drone Service Provider. Aerobridge provides the digital infrastructure to report incidents to specific parts that can help the operator maintain world-class incident management system.

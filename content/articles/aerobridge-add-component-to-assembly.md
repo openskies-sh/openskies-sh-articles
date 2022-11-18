@@ -6,7 +6,7 @@ categories: ["aerobridge","documentation"]
 tags: ["aerobridge-howto"]
 ---
 
-In this article you will learn how to acknowledge custody of a new component via [Aerobridge](https://aerobridge.io). Once custody is acknowledged and installed / replaced on the drone, the component must be associated to an assembly on the Aerobridge Management Server. To perform these actions, you will need a account in Aerobridge, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/).
+In this article you will learn how to acknowledge custody of a new component via Aerobridge Management Server. Once custody is acknowledged and installed / replaced on the drone, the component must be associated to an assembly on the [Aerobridge](https://aerobridge.io). To perform these actions, you will need a account in Aerobridge, to get a account for yourself, please join us during our [office hours](https://outlook.office365.com/owa/calendar/AerobridgePro@openskies.sh/bookings/).
 <!--more-->
 
 ### Prerequisites
