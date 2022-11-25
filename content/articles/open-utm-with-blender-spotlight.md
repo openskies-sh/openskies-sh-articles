@@ -20,6 +20,7 @@ The [Open-UTM](https://utm.openskies.sh) stack provided is by Openskies via two 
 
 ![NASA UTM framework](/images/open-utm/NASA-UTM-architecture.jpg)
 
+## Deployment Roadmap
  The best part of this stack is that these are plug and play components that can be deployed together or independently as you see fit for the use case. UTM is a complex piece of software capability and it is recommended that UTM services be gradually developed and integrated. A roadmap for the gradual deployment of this capacity for a private company or a jurisdiction is detailed below. 
 
 ![Open UTM roadmap](/images/open-utm/open-utm.roadmap.png)
