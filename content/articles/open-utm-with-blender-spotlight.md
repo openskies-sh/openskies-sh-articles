@@ -6,13 +6,24 @@ categories: ["open utm", "remote id","flight authorization", "air traffic"]
 tags: ["utm", "remote id service provider","flight tracking","aircraft surveillance","interuss"]
 ---
 
-Openskies provides foundational elements of a federated UTM services and also a roadmap for jurisdictions to graudally enable additional services and service providers in a international standards compatible fashion.
+Openskies provides foundational elements of a federated un-manned traffic management (UTM) services and also a roadmap for jurisdictions to graudally enable additional services and service providers in a international standards compatible fashion.
 <!--more-->
+## Who is OpenUTM for? 
+The [Open-UTM](https://utm.openskies.sh) stack is meant for organizations intending to stand up standards-compatible UTM capability, specifically: 
+- For **UTM Project managers** / **Drone project leads** in a private companies in drone service providers, who are interested in deployming UTM services for their operations. 
+- For **UTM Program managers** in Government organizations / authorities who want to participate in, verify and understand standards compatible UTM operations 
+- For **Drone project managers** in local authorities and entities who want to see / visualize drone flying over their properties, buildings and jurisdictions.
+- For **software developers** within organizations who want to test and verify data interoperability and standards complaince of their internal systems
 
-## Introduction
-The "Open-UTM" stack provided is by Openskies via products such as [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system. The best part of this stack is that these are plug and play components that can be deployed together or independently as you see fit for the use case. UTM is a complex piece of software and it is recommended that UTM capability be gradually developed and integrated. A roadmap for the gradual deployment of this capacity for a private company or a national authority is detailed below. 
+## Background
+The [Open-UTM](https://utm.openskies.sh) stack provided is by Openskies via two products: [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system. Broadly, it follows the NASA UTM Architecture that allows for standards complianct federated UTM system.
 
-![Open UTM roadmap](/images/open-utm.roadmap.png)
+![NASA UTM framework](/images/open-utm/NASA-UTM-architecture.jpg)
+
+## Deployment Roadmap
+ The best part of this stack is that these are plug and play components that can be deployed together or independently as you see fit for the use case. UTM is a complex piece of software capability and it is recommended that UTM services be gradually developed and integrated. A roadmap for the gradual deployment of this capacity for a private company or a jurisdiction is detailed below. 
+
+![Open UTM roadmap](/images/open-utm/open-utm.roadmap.png)
 
 The roadmap provides for a phased approach to ramp up UTM capabilities eventually participating a federated UTM network where multiple providers can inter-operate in a standards compliant software. This system is therefore compliant with the ASTM standards and the [InterUSS](https://interuss.org) software. 
 
@@ -38,7 +49,7 @@ You can see some screenshots and photos, you can navigate [this directory](https
 [Flight Blender](https://flightblender.com) is the backend data storage and processing engine for this Open-UTM system. Flight Spotlight communicates with Blender via an extensive and <a href="http://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/openskies-sh/flight-blender/master/api/flight-blender-1.0.0-resolved.yaml">elaborate API</a>. You can review the API to understand the kind of data that is processed and utilized in the software. In most cases you do will not have to interact with Flight Blender but technical teams within your organization can use the API to build extensions and addons on top of Blender. Iin some cases, you might encounter slowness in Blender and the interaction from Spotlight. This can be for a number of reasons but conceptually these are two different software talking to you each other in a private network. You can check the Blender Connectivity with Spotlight from within Spotlight user interface as well.. 
 
 ## Support and Contact 
-If you want to get in touch or have queries regarding the software and how you can deploy it in your company, please reach out to your administrators / local contact or contact via the form at [Openskies website](https://about.openskies.sh/#contact), it may take one or two days to get back to you.
+If you want to get in touch or have queries regarding the software and how you can deploy it in your company, please reach out to your administrators / local contact or contact via the form at [Openskies website](https://www.openskies.sh/#contact), it may take one or two days to get back to you.
 
 ## Frequently Asked Questions (FAQ) {#faq}
 A list of frequently asked questions are below, these are updated from time to time. 
@@ -55,4 +66,4 @@ __iOS__
 __Android__
 - TBC
 
-Know of an app that can be added to the list? Tell your administrators or us via our [support form](https://about.openskies.sh/#contact)
+Know of an app that can be added to the list? Tell your administrators or us via our [support form](https://www.openskies.sh/#contact)
