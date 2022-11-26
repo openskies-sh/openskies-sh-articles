@@ -30,6 +30,7 @@ Follow the steps below to report an incident in the Aerobridge Management Server
 2. Step 2. Report an incident
     - Go to ```Trusted Flights -> Aircraft```
     - Select the impacted aircraft and click on ```+ Report an Incident```
+    - Select the photo that you have uploaded, it should appear in the dropdown, if your photo does not appear see step 1 above
     - Select one of the ```Impacted Components```, add ```Notes``` describing briefly and precisely details about the incident.     
     - Set the ```New status``` of the component, usually it is Damaged or Needs Attention. 
 
