@@ -38,8 +38,3 @@ Your event will be added to the management server, depending on what you set the
 
 ### Good to know
 If multiple components are impacted, then multiple event report must be created, in Aerobridge one event report is linked to one component.
-
-
-### Video Demonstration
-{{< youtube cjwjqq9SBAI >}}
-
