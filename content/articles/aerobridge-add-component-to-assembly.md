@@ -1,5 +1,5 @@
 ---
-title: "Aerobridge.io: How to add a new component to Assembly?"
+title: "Aerobridge.io: How to add a new component to an Assembly?"
 date: 2022-10-31
 draft: False
 categories: ["aerobridge","documentation"]
@@ -10,10 +10,10 @@ In this article you will learn how to acknowledge custody of a new component via
 <!--more-->
 
 ### Prerequisites
-An incident must be recorded prior to starting this article, once a incident is reported the component is removed from the assembly automatically. To see how to report an incident and associate a component with that Incident Report, please see the [How to report an Incident?]({{< ref "aerobridge-report-incident.md" >}} "Report an Incident")) article.
+An event must be recorded prior to starting this article, once a event is reported against a component, depending on the status the component is removed from the assembly automatically. To see how to report an event and associate a component with that Event Report, please see the [How to report an event?]({{< ref "aerobridge-report-events.md" >}} "Reporting Events")) article.
 
 ### The background 
-Once an incident has been reported, the management server removes the component from the assembly and sets the status of the assembly as ```parts need review```. Normally staff within your operation will inspect the impacted component and based on the inspection, they can order a new part or fix the damaged one. In this case we assume the impacted component is damaged beyond repairs and that a new part is ordered and replaced. 
+Once an event has been reported, and the associated component isset as damaged, the component assembly is marked as ```parts need review```. Normally staff within your company will inspect the impacted component and based on the inspection, they can order a new part or fix the damaged one. In this case we assume the impacted component is damaged beyond repairs and that a new part is ordered and replaced. 
 
 ### Applies to 
 **Aerobridge Lite Plan** and above
@@ -22,11 +22,11 @@ Once an incident has been reported, the management server removes the component 
 For this step, you will need:
 
 - an account with the Lite plan in Aerobridge with your fleet details
-- an {{< relref "aerobridge-report-incident.md" >}} incident report created with the impacted component
+- an {{< relref "aerobridge-report-events.md" >}} event report created with the impacted component 
 - a photo / image of the receipt from the purchase of the replacement component
 
-### Report an incident
-Follow the following steps update the component assembly. This is essentially a two-step process where you upload the receipt first, then you acknowledge custody of the new component ad finally after replacing the part on the drone, you update the component assembly. : 
+### Update component assembly
+Follow the following steps update the component assembly. This is essentially a two-step process where you upload the receipt first, then you acknowledge custody of the new component ad finally after replacing the part on the drone, you update the component assembly. 
 
 1. Step 1. Upload your receipt
     - Go to ```Data locker -> Files Manager```
