@@ -45,6 +45,3 @@ Follow the following steps update the component assembly. This is essentially a 
 
 ### Result
 The assembly status should now be complete
-
-### Video Demonstration
-{{< youtube ZPjMuc1Xmuo >}}
