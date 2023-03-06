@@ -33,16 +33,16 @@ A permission object as a JSON web signature is downloaded from the authorization
 
 ![Aerobridge Trusted Flight Workflow](/images/aerobridge_trusted_flight/Aerobridge-Trusted-Flight-overview.png)
 
-### Blazing the trail in India
+### Blazing the trail
 
 The Aerobridge Trusted Flight is a unique architecture that satisfies the important considerations of security, data integrity and auditability of drone operations. The reliance on PKI and other open technologies to sign data ensures that well known and robust security mechanisms and interfaces are utilized. However, this technologically intensive workflow imposes a huge burden of compliance understanding on the manufacturers and operators.
 
-This is especially pronounced for small companies (SMEs) in the Indian ecosystem where the resources are limited and there is sometimes no capacity to invest in understanding and implementing this infrastructure. Manufacturers are focused on certification and other hardware / manufacturing aspects of their company and operators are focused on the operations and pilots side. This affects both local manufacturers and operators stunting the ecosystem and limits hardware and operational innovation.
+This is especially pronounced for small companies (SMEs) in the ecosystem where the resources are limited and there is sometimes no capacity to invest in understanding and implementing this infrastructure. Manufacturers are focused on certification and other hardware / manufacturing aspects of their company and operators are focused on the operations and pilots side. This affects both local manufacturers and operators stunting the ecosystem and limits hardware and operational innovation.
 
 Aerobridge project, therefore, serves two important purposes for the Indian Drone Ecosystem and potentially for projects like PX4 and Ardupilot:
 
 - Providing reference / best in class implementations for compliance thereby enabling any operator / manufacturer large or small a clear ramp to compliance and speeds up their ability to join the ecosystem.
-- Build capacity in the ecosystem for world class open solutions to drone security, operation auditability as the ecosystem evolves. Aerobridge has built a small but thriving community of engineers innovating on open technologies around Digital Sky and drone operations in India.
+- Build capacity in the ecosystem for world class open solutions to drone security, operation auditability as the ecosystem evolves.
   
 ### Aerobridge Community
 
