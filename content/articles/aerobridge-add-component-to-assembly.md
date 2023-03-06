@@ -10,7 +10,7 @@ In this article you will learn how to acknowledge custody of a new component via
 <!--more-->
 
 ### Prerequisites
-An event must be recorded prior to starting this article, once a event is reported against a component, depending on the status the component is removed from the assembly automatically. To see how to report an event and associate a component with that Event Report, please see the [How to report an event?]({{< ref "aerobridge-report-events.md" >}} "Reporting Events")) article.
+An event must be recorded prior to starting this article, once a event is reported against a component, depending on the status the component is removed from the assembly automatically. To see how to report an event and associate a component with that Event Report, please see the [How to report an event?]({{< ref "aerobridge-report-events.md" >}} "Reporting Events") article.
 
 ### The background 
 Once an event has been reported, and the associated component isset as damaged, the component assembly is marked as ```parts need review```. Normally staff within your company will inspect the impacted component and based on the inspection, they can order a new part or fix the damaged one. In this case we assume the impacted component is damaged beyond repairs and that a new part is ordered and replaced. 
