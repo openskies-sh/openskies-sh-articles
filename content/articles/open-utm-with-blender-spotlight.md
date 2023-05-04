@@ -16,7 +16,7 @@ The [Open-UTM](https://utm.openskies.sh) stack is meant for organizations intend
 - For **software developers** within organizations who want to test and verify data interoperability and standards complaince of their internal systems
 
 ## Background
-The [Open-UTM](https://utm.openskies.sh) stack provided is by Openskies via two products: [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system. Broadly, it follows the NASA UTM Architecture that allows for standards complianct federated UTM system.
+The [Open-UTM](https://utm.openskies.sh) stack provided is by Openskies via two products: [Flight Blender](https://flightblender.com) (backend) and [Flight Spotlight](https://flightspotlight.com) (frontend). These tools implement the published and developing international standards on UTM in code. These robust and well-tested products can be extended and customized to your particular needs as necessary and enable setting up of UTM services by government entities or private companies securely and enable these to participate in a standards-compliant federated UTM eco-system. Broadly, it follows the NASA UTM Architecture that allows for a standards compliant federated UTM system.
 
 ![NASA UTM framework](/images/open-utm/NASA-UTM-architecture.jpg)
 
@@ -25,7 +25,7 @@ The [Open-UTM](https://utm.openskies.sh) stack provided is by Openskies via two 
 
 ![Open UTM roadmap](/images/open-utm/open-utm.roadmap.png)
 
-The roadmap provides for a phased approach to ramp up UTM capabilities eventually participating a federated UTM network where multiple providers can inter-operate in a standards compliant software. This system is therefore compliant with the ASTM standards and the [InterUSS](https://interuss.org) software. 
+The roadmap provides for a phased approach to ramp up UTM capabilities eventually participating a federated UTM network where multiple providers can inter-operate in a standards compliant software. This system is therefore compliant with the ASTM standards and the [InterUSS](https://interuss.org) software that facilitates data exchange between different UTM providers. 
 
 ### Permissioning and User roles
 The Blender and Spotlight stack implements a modern authorization and authentication stack. To access this system, you will need to get an account in the system in an OIDC compliant software, in this case we use the [Flight Passport](https://id.openskies.sh) software. Once the system is configured, you will need to contact your administrators to get an account. Normally you cannot sign up for an account by yourself but will have to be nominated by your administrators to get setup. In addition to an account you will also get access to a credentials site where other credentials for automatic API access etc. are provided for machine-to-machine transactions. For people / individuals, there are broadly three types of access to this system, in many cases there are additional special roles that are: 
@@ -39,7 +39,7 @@ The Blender and Spotlight stack implements a modern authorization and authentica
 
 1. Live Flights: This is a display to see live flights in an area, when configured, live manned air-traffic and / or ASTM compared Network Remote-ID etc. can be provided. Here you can also see geo-fences etc. 
 
-2. Launchpad: Using this form operators can submit flight declarations as GeoJSON into the system. In the background, this is compatible with ASTM standards on USS <-> USS interoperability standards. The GeoJSON once submitted is stored as an ASTM operational intent (Volume4D etc.) and the raw GeoJSON as well. This data is submitted to the Blender backend securely. 
+2. Launchpad: Using this form operators can submit flight declarations as GeoJSON into the system. In the background, this is compatible with ASTM standards on USS <-> USS interoperability standards. The GeoJSON once submitted is stored as an ASTM operational intents (Volume4D etc.) and the raw GeoJSON as well. This data is submitted to the Blender backend securely. 
 
 3. Noticeboard: Fight Declarations submitted via the Launchpad interface is seen here, operations can be seen on a table and / or on a map. If you have the appropriate privileges you can authorize operations. At the moment, there is no deconfliction or any other support but these can be added in the future. 
 
